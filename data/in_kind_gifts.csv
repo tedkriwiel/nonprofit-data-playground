@@ -1,0 +1,16 @@
+id,person_id,company_id,description,estimated_value,date,category
+1,16,16,Office supplies donation,5000,2024-06-20,goods
+2,11,11,Printed marketing materials,5000,2025-06-02,goods
+3,25,25,Catering for Spring Gala,2500,2024-03-19,goods
+4,3,3,Printed marketing materials,25000,2025-12-01,goods
+5,30,30,Office supplies donation,10000,2025-08-29,goods
+6,6,6,Pro bono legal services - contract review,10000,2025-02-17,services
+7,18,18,Pro bono legal services - contract review,5000,2024-04-30,services
+8,34,,Website hosting for one year,1000,2025-06-14,services
+9,178,,Photography services for event,5000,2025-01-23,services
+10,198,,Graphic design for annual report,5000,2025-08-30,services
+11,44,,Website hosting for one year,2000,2025-08-19,services
+12,91,,Books and educational materials,1000,2025-09-22,goods
+13,63,,Website hosting for one year,500,2024-10-01,services
+14,42,,Donated auction items,3000,2025-04-12,goods
+15,140,,Photography services for event,2000,2024-05-27,services

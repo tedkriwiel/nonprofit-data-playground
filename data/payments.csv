@@ -1,0 +1,582 @@
+id,person_id,company_id,amount,category,payment_method,payment_date,campaign_id,notes
+1,107,,100,donation,check,2025-08-26,,
+2,107,,1000,donation,online,2025-05-18,4,
+3,158,,25,donation,credit_card,2025-07-02,4,
+4,158,,250,donation,ach,2024-08-06,5,
+5,158,,250,donation,check,2025-10-09,5,
+6,118,,2500,donation,online,2025-12-03,3,
+7,118,,25,donation,check,2024-08-07,,
+8,118,,500,donation,credit_card,2024-04-16,2,
+9,118,,500,donation,cash,2025-11-09,,
+10,108,,100,donation,check,2024-10-10,,
+11,108,,250,donation,cash,2025-01-21,1,
+12,190,,250,donation,cash,2024-06-18,7,
+13,171,,250,donation,cash,2024-11-14,7,
+14,171,,1000,donation,online,2024-09-29,4,
+15,171,,50,donation,check,2025-07-01,,
+16,171,,100,donation,credit_card,2024-08-12,5,
+17,171,,100,donation,check,2025-08-03,1,
+18,87,,1000,donation,check,2025-04-20,7,
+19,87,,500,donation,ach,2024-09-30,8,
+20,87,,1000,donation,check,2024-03-22,1,
+21,34,,250,donation,credit_card,2024-09-22,7,
+22,66,,1000,donation,cash,2024-07-12,7,
+23,66,,1000,donation,check,2024-06-15,5,
+24,94,,500,donation,credit_card,2025-06-22,4,
+25,94,,250,donation,cash,2025-02-10,8,
+26,94,,1000,donation,cash,2024-04-28,8,
+27,94,,5000,donation,credit_card,2025-01-20,3,
+28,94,,1000,donation,cash,2024-04-21,8,
+29,192,,1000,donation,ach,2024-09-16,2,
+30,178,,500,donation,ach,2024-04-06,2,
+31,168,,1000,donation,cash,2024-02-16,6,
+32,136,,5000,donation,online,2025-07-04,,
+33,170,,2500,donation,ach,2024-08-29,2,
+34,170,,100,donation,cash,2024-05-16,3,
+35,170,,250,donation,check,2025-04-09,,
+36,170,,1000,donation,cash,2025-04-04,5,
+37,170,,50,donation,online,2024-07-15,1,
+38,98,,50,donation,check,2024-01-23,2,
+39,98,,50,donation,credit_card,2025-06-02,8,
+40,98,,100,donation,online,2024-06-17,3,
+41,98,,50,donation,cash,2024-11-27,6,
+42,37,,250,donation,cash,2026-01-07,3,
+43,37,,100,donation,cash,2025-04-27,2,
+44,37,,100,donation,ach,2024-11-26,2,
+45,37,,5000,donation,cash,2025-01-14,7,
+46,115,,50,donation,check,2025-03-04,8,
+47,115,,25,donation,online,2024-12-24,4,
+48,115,,100,donation,credit_card,2025-09-16,,
+49,115,,250,donation,online,2025-10-11,5,
+50,115,,500,donation,ach,2025-03-16,1,
+51,166,,25,donation,online,2025-10-12,3,
+52,166,,100,donation,ach,2025-04-15,3,
+53,166,,250,donation,check,2024-02-13,1,
+54,166,,50,donation,cash,2026-01-28,4,
+55,77,,50,donation,ach,2024-04-24,6,
+56,77,,5000,donation,credit_card,2025-08-26,1,
+57,77,,100,donation,credit_card,2024-10-05,2,
+58,137,,250,donation,check,2025-06-02,,
+59,137,,250,donation,credit_card,2024-08-01,8,
+60,155,,250,donation,credit_card,2024-12-20,3,
+61,155,,5000,donation,online,2024-03-07,5,
+62,155,,100,donation,ach,2025-11-22,5,
+63,61,,100,donation,online,2025-05-07,5,
+64,61,,100,donation,check,2026-01-27,5,
+65,127,,250,donation,cash,2024-09-25,2,
+66,127,,250,donation,cash,2025-07-16,8,
+67,127,,100,donation,credit_card,2026-01-26,4,
+68,106,,500,donation,ach,2024-06-10,7,
+69,106,,2500,donation,ach,2025-01-20,2,
+70,106,,25,donation,check,2024-09-02,,
+71,106,,1000,donation,cash,2025-02-12,2,
+72,141,,100,donation,credit_card,2025-01-24,8,
+73,141,,2500,donation,credit_card,2025-11-30,3,
+74,141,,25,donation,online,2025-11-12,6,
+75,141,,250,donation,online,2025-09-12,,
+76,141,,250,donation,online,2026-02-24,2,
+77,159,,250,donation,check,2025-04-28,1,
+78,159,,250,donation,online,2024-06-17,4,
+79,159,,5000,donation,ach,2024-10-09,4,
+80,159,,250,donation,cash,2025-09-23,5,
+81,159,,2500,donation,ach,2024-09-24,6,
+82,160,,250,donation,credit_card,2024-05-14,3,
+83,160,,100,donation,cash,2024-01-15,7,
+84,160,,100,donation,check,2025-02-20,2,
+85,160,,2500,donation,credit_card,2024-12-16,8,
+86,103,,100,donation,ach,2025-07-11,,
+87,103,,2500,donation,check,2026-02-26,1,
+88,103,,25,donation,online,2024-06-06,1,
+89,103,,100,donation,ach,2025-07-30,6,
+90,113,,250,donation,online,2025-10-05,3,
+91,113,,5000,donation,cash,2024-02-19,1,
+92,120,,1000,donation,credit_card,2025-02-07,1,
+93,180,,100,donation,online,2026-01-15,1,
+94,180,,250,donation,credit_card,2025-12-17,5,
+95,180,,25,donation,credit_card,2024-10-29,,
+96,180,,500,donation,online,2024-10-16,1,
+97,180,,5000,donation,credit_card,2026-01-17,4,
+98,51,,500,donation,online,2026-01-31,2,
+99,100,,250,donation,cash,2025-08-06,2,
+100,149,,500,donation,online,2025-03-02,4,
+101,149,,5000,donation,ach,2025-11-14,,
+102,149,,500,donation,ach,2024-01-03,1,
+103,149,,100,donation,credit_card,2024-07-20,3,
+104,149,,100,donation,ach,2024-03-19,1,
+105,122,,250,donation,ach,2025-05-15,8,
+106,122,,250,donation,cash,2026-01-22,8,
+107,122,,250,donation,cash,2024-05-19,6,
+108,122,,5000,donation,ach,2026-01-01,4,
+109,128,,250,donation,credit_card,2025-04-07,3,
+110,128,,25,donation,online,2024-08-05,8,
+111,128,,100,donation,credit_card,2026-02-07,4,
+112,128,,500,donation,cash,2025-03-18,,
+113,128,,500,donation,ach,2025-11-11,2,
+114,119,,5000,donation,cash,2025-10-06,6,
+115,119,,2500,donation,online,2024-08-03,2,
+116,119,,250,donation,cash,2024-06-28,1,
+117,45,,5000,donation,cash,2024-11-12,2,
+118,45,,100,donation,credit_card,2024-03-24,,
+119,69,,50,donation,credit_card,2024-09-17,5,
+120,69,,100,donation,check,2024-06-07,7,
+121,69,,1000,donation,cash,2024-11-01,,
+122,69,,5000,donation,credit_card,2024-06-24,5,
+123,69,,25,donation,ach,2025-04-04,5,
+124,193,,250,donation,online,2024-06-11,6,
+125,193,,25,donation,credit_card,2025-03-11,1,
+126,167,,50,donation,ach,2025-07-08,2,
+127,97,,50,donation,cash,2024-11-21,6,
+128,97,,5000,donation,online,2024-01-04,8,
+129,97,,25,donation,online,2024-08-10,4,
+130,97,,25,donation,credit_card,2025-07-27,,
+131,42,,1000,donation,cash,2024-07-26,1,
+132,42,,25,donation,check,2024-07-09,1,
+133,42,,50,donation,credit_card,2025-12-22,2,
+134,42,,250,donation,ach,2025-03-04,1,
+135,44,,25,donation,check,2024-05-28,6,
+136,44,,500,donation,ach,2024-12-08,4,
+137,71,,100,donation,cash,2025-08-20,4,
+138,71,,100,donation,ach,2024-03-14,1,
+139,71,,50,donation,credit_card,2025-02-01,8,
+140,71,,100,donation,online,2026-01-23,,
+141,71,,2500,donation,check,2024-02-27,6,
+142,142,,2500,donation,online,2025-02-04,4,
+143,142,,50,donation,credit_card,2025-02-05,5,
+144,142,,2500,donation,ach,2025-12-24,6,
+145,196,,50,donation,online,2025-06-16,2,
+146,196,,50,donation,online,2024-01-26,5,
+147,196,,100,donation,cash,2025-10-24,4,
+148,196,,250,donation,online,2025-09-10,,
+149,196,,250,donation,check,2024-11-20,7,
+150,123,,100,donation,credit_card,2024-12-07,8,
+151,56,,500,donation,online,2024-07-05,7,
+152,85,,5000,donation,check,2024-03-20,2,
+153,85,,1000,donation,cash,2025-06-15,4,
+154,85,,50,donation,ach,2025-01-16,7,
+155,85,,250,donation,check,2024-08-19,2,
+156,85,,100,donation,credit_card,2024-09-30,1,
+157,40,,1000,donation,check,2025-06-11,7,
+158,138,,5000,donation,credit_card,2025-08-05,,
+159,138,,2500,donation,credit_card,2024-09-14,2,
+160,138,,500,donation,cash,2024-09-07,5,
+161,195,,250,donation,online,2025-08-31,1,
+162,195,,500,donation,check,2025-03-15,,
+163,195,,2500,donation,ach,2024-08-18,3,
+164,195,,250,donation,credit_card,2025-03-09,1,
+165,63,,100,donation,online,2025-07-27,4,
+166,63,,25,donation,ach,2024-06-17,5,
+167,135,,500,donation,cash,2025-03-02,,
+168,135,,5000,donation,ach,2024-08-29,5,
+169,135,,50,donation,cash,2025-01-29,1,
+170,135,,50,donation,ach,2025-12-01,6,
+171,135,,500,donation,check,2025-03-26,5,
+172,31,,25,donation,ach,2024-08-21,3,
+173,31,,5000,donation,credit_card,2024-09-02,5,
+174,31,,2500,donation,ach,2025-08-09,8,
+175,31,,100,donation,check,2024-10-08,8,
+176,200,,100,donation,cash,2025-03-22,4,
+177,133,,50,donation,ach,2025-01-30,,
+178,133,,100,donation,online,2025-05-23,1,
+179,133,,1000,donation,credit_card,2026-02-25,8,
+180,32,,100,donation,check,2024-10-08,4,
+181,32,,100,donation,cash,2024-05-09,8,
+182,9,9,50000,grant,wire,2024-07-13,1,Defungo minima velum volubilis reiciendis tendo agnosco.
+183,9,9,10000,grant,wire,2024-12-06,4,Pectus audacia quis atavus adversus.
+184,9,9,25000,grant,check,2025-12-02,1,Inflammatio denique adipisci absens.
+185,17,17,75000,grant,ach,2025-01-06,3,Sodalitas vaco auctus tunc animus.
+186,17,17,25000,grant,check,2024-04-21,8,Aetas vitiosus utroque tego victoria bonus.
+187,17,17,100000,grant,wire,2025-11-17,7,Teres celebrer compono amita videlicet.
+188,22,22,50000,grant,ach,2026-01-27,3,Umbra debeo crapula tametsi verecundia temeritas calamitas valeo cresco.
+189,24,24,100000,grant,check,2025-09-10,5,Astrum curiositas triumphus accusantium amplexus vulariter cicuta voluptates auctor contra.
+190,24,24,75000,grant,ach,2025-04-03,5,Canonicus decipio armarium patior casso concido deludo acquiro aliqua.
+191,28,28,50000,grant,wire,2025-07-02,1,Aliquid terminatio vulgaris excepturi statua capio debitis.
+192,28,28,100000,grant,check,2024-07-28,4,Coruscus vestigium alius correptius sui caelum sollicito asper.
+193,28,28,10000,grant,check,2026-01-03,5,Concedo optio deputo vinculum tametsi sustineo adipiscor inventore deleo.
+194,11,11,10000,sponsorship,ach,2024-07-11,2,Gold sponsor
+195,13,13,50000,sponsorship,wire,2024-08-10,5,Event sponsor
+196,15,15,10000,sponsorship,check,2024-12-29,3,Program sponsor
+197,23,23,15000,sponsorship,wire,2024-02-11,8,Event sponsor
+198,27,27,15000,sponsorship,wire,2024-03-21,3,Title sponsor
+199,178,,150,service,online,2025-10-11,,Program tuition
+200,31,,150,service,cash,2025-08-03,,Workshop fee
+201,180,,50,service,credit_card,2025-10-02,,Program tuition
+202,121,,50,service,cash,2024-09-17,,Workshop fee
+203,131,,75,service,credit_card,2025-02-24,,Training fee
+204,142,,500,service,online,2025-02-17,,Counseling session
+205,63,,75,service,credit_card,2026-01-20,,Workshop fee
+206,186,,75,service,online,2025-04-10,,Workshop fee
+207,167,,75,service,online,2025-08-10,,Workshop fee
+208,192,,100,service,online,2025-12-19,,Program tuition
+209,120,,50,service,online,2025-09-19,,Workshop fee
+210,85,,100,service,credit_card,2024-06-22,,Program tuition
+211,55,,100,service,cash,2025-06-19,,Program tuition
+212,113,,100,service,online,2024-06-26,,Training fee
+213,58,,500,service,credit_card,2024-08-16,,Workshop fee
+214,150,,200,service,online,2025-11-23,,Training fee
+215,69,,150,service,online,2025-08-13,,Counseling session
+216,109,,150,service,online,2025-05-22,,Counseling session
+217,171,,200,service,cash,2025-07-15,,Counseling session
+218,73,,200,service,online,2024-11-01,,Workshop fee
+219,96,,100,event_ticket,online,2024-07-08,,Ticket for Spring Gala 2025
+220,76,,100,event_ticket,online,2024-08-05,,Ticket for Spring Gala 2025
+221,39,,100,event_ticket,online,2024-07-20,,Ticket for Spring Gala 2025
+222,110,,100,event_ticket,credit_card,2024-07-30,,Ticket for Spring Gala 2025
+223,87,,100,event_ticket,credit_card,2024-08-27,,Ticket for Spring Gala 2025
+224,53,,100,event_ticket,credit_card,2024-08-14,,Ticket for Spring Gala 2025
+225,150,,100,event_ticket,credit_card,2024-07-22,,Ticket for Spring Gala 2025
+226,8,,100,event_ticket,online,2024-08-06,,Ticket for Spring Gala 2025
+227,135,,100,event_ticket,credit_card,2024-07-16,,Ticket for Spring Gala 2025
+228,129,,100,event_ticket,online,2024-07-18,,Ticket for Spring Gala 2025
+229,86,,100,event_ticket,online,2024-08-01,,Ticket for Spring Gala 2025
+230,177,,100,event_ticket,credit_card,2024-08-24,,Ticket for Spring Gala 2025
+231,192,,100,event_ticket,online,2024-07-04,,Ticket for Spring Gala 2025
+232,44,,100,event_ticket,credit_card,2024-08-05,,Ticket for Spring Gala 2025
+233,175,,100,event_ticket,credit_card,2024-08-10,,Ticket for Spring Gala 2025
+234,71,,100,event_ticket,online,2024-07-17,,Ticket for Spring Gala 2025
+235,130,,100,event_ticket,online,2024-07-04,,Ticket for Spring Gala 2025
+236,73,,100,event_ticket,credit_card,2024-07-05,,Ticket for Spring Gala 2025
+237,100,,100,event_ticket,credit_card,2024-07-21,,Ticket for Spring Gala 2025
+238,138,,100,event_ticket,credit_card,2024-07-09,,Ticket for Spring Gala 2025
+239,90,,100,event_ticket,credit_card,2024-07-12,,Ticket for Spring Gala 2025
+240,151,,100,event_ticket,online,2024-07-18,,Ticket for Spring Gala 2025
+241,195,,100,event_ticket,online,2024-08-04,,Ticket for Spring Gala 2025
+242,41,,100,event_ticket,credit_card,2024-08-08,,Ticket for Spring Gala 2025
+243,58,,100,event_ticket,online,2024-07-24,,Ticket for Spring Gala 2025
+244,20,,100,event_ticket,credit_card,2024-07-24,,Ticket for Spring Gala 2025
+245,37,,100,event_ticket,credit_card,2024-07-13,,Ticket for Spring Gala 2025
+246,166,,100,event_ticket,online,2024-08-08,,Ticket for Spring Gala 2025
+247,139,,100,event_ticket,online,2024-08-22,,Ticket for Spring Gala 2025
+248,152,,100,event_ticket,online,2024-07-04,,Ticket for Spring Gala 2025
+249,5,,100,event_ticket,online,2024-07-29,,Ticket for Spring Gala 2025
+250,171,,100,event_ticket,online,2024-07-16,,Ticket for Spring Gala 2025
+251,181,,100,event_ticket,credit_card,2024-08-04,,Ticket for Spring Gala 2025
+252,179,,100,event_ticket,online,2024-07-01,,Ticket for Spring Gala 2025
+253,162,,100,event_ticket,online,2024-07-12,,Ticket for Spring Gala 2025
+254,10,,100,event_ticket,credit_card,2024-07-25,,Ticket for Spring Gala 2025
+255,85,,100,event_ticket,online,2024-08-21,,Ticket for Spring Gala 2025
+256,74,,100,event_ticket,credit_card,2024-07-22,,Ticket for Spring Gala 2025
+257,197,,100,event_ticket,credit_card,2024-08-15,,Ticket for Spring Gala 2025
+258,122,,100,event_ticket,online,2024-07-11,,Ticket for Spring Gala 2025
+259,156,,100,event_ticket,credit_card,2024-07-11,,Ticket for Spring Gala 2025
+260,102,,100,event_ticket,online,2024-07-01,,Ticket for Spring Gala 2025
+261,125,,100,event_ticket,credit_card,2024-08-08,,Ticket for Spring Gala 2025
+262,149,,100,event_ticket,online,2024-07-19,,Ticket for Spring Gala 2025
+263,22,,100,event_ticket,credit_card,2024-08-09,,Ticket for Spring Gala 2025
+264,137,,100,event_ticket,credit_card,2024-08-24,,Ticket for Spring Gala 2025
+265,117,,100,event_ticket,credit_card,2024-08-28,,Ticket for Spring Gala 2025
+266,109,,100,event_ticket,online,2024-08-15,,Ticket for Spring Gala 2025
+267,143,,100,event_ticket,online,2024-07-04,,Ticket for Spring Gala 2025
+268,69,,100,event_ticket,online,2024-08-20,,Ticket for Spring Gala 2025
+269,54,,100,event_ticket,credit_card,2024-08-11,,Ticket for Spring Gala 2025
+270,17,,100,event_ticket,credit_card,2024-08-20,,Ticket for Spring Gala 2025
+271,185,,100,event_ticket,credit_card,2024-07-31,,Ticket for Spring Gala 2025
+272,178,,100,event_ticket,online,2024-07-21,,Ticket for Spring Gala 2025
+273,13,,100,event_ticket,credit_card,2024-07-09,,Ticket for Spring Gala 2025
+274,160,,100,event_ticket,online,2024-08-03,,Ticket for Spring Gala 2025
+275,194,,100,event_ticket,online,2024-07-11,,Ticket for Spring Gala 2025
+276,19,,100,event_ticket,credit_card,2024-08-25,,Ticket for Spring Gala 2025
+277,148,,100,event_ticket,credit_card,2024-08-09,,Ticket for Spring Gala 2025
+278,200,,100,event_ticket,online,2024-07-26,,Ticket for Spring Gala 2025
+279,80,,100,event_ticket,credit_card,2024-08-13,,Ticket for Spring Gala 2025
+280,67,,100,event_ticket,credit_card,2024-08-03,,Ticket for Spring Gala 2025
+281,35,,100,event_ticket,credit_card,2024-08-04,,Ticket for Spring Gala 2025
+282,26,,100,event_ticket,online,2024-07-21,,Ticket for Spring Gala 2025
+283,164,,100,event_ticket,online,2024-07-12,,Ticket for Spring Gala 2025
+284,68,,100,event_ticket,credit_card,2024-07-02,,Ticket for Spring Gala 2025
+285,58,,250,event_ticket,credit_card,2025-03-13,5,Ticket for Fall Fundraiser 2025
+286,56,,250,event_ticket,credit_card,2025-03-11,5,Ticket for Fall Fundraiser 2025
+287,6,,250,event_ticket,online,2025-04-20,5,Ticket for Fall Fundraiser 2025
+288,149,,250,event_ticket,credit_card,2025-03-23,5,Ticket for Fall Fundraiser 2025
+289,54,,250,event_ticket,credit_card,2025-04-28,5,Ticket for Fall Fundraiser 2025
+290,105,,250,event_ticket,online,2025-04-15,5,Ticket for Fall Fundraiser 2025
+291,137,,250,event_ticket,online,2025-03-08,5,Ticket for Fall Fundraiser 2025
+292,104,,250,event_ticket,online,2025-04-20,5,Ticket for Fall Fundraiser 2025
+293,87,,250,event_ticket,online,2025-03-08,5,Ticket for Fall Fundraiser 2025
+294,118,,250,event_ticket,credit_card,2025-03-23,5,Ticket for Fall Fundraiser 2025
+295,141,,250,event_ticket,credit_card,2025-04-03,5,Ticket for Fall Fundraiser 2025
+296,39,,250,event_ticket,credit_card,2025-04-26,5,Ticket for Fall Fundraiser 2025
+297,165,,250,event_ticket,credit_card,2025-03-05,5,Ticket for Fall Fundraiser 2025
+298,147,,250,event_ticket,online,2025-04-03,5,Ticket for Fall Fundraiser 2025
+299,125,,250,event_ticket,online,2025-03-19,5,Ticket for Fall Fundraiser 2025
+300,115,,250,event_ticket,online,2025-04-21,5,Ticket for Fall Fundraiser 2025
+301,66,,250,event_ticket,credit_card,2025-03-22,5,Ticket for Fall Fundraiser 2025
+302,1,,250,event_ticket,online,2025-04-09,5,Ticket for Fall Fundraiser 2025
+303,44,,250,event_ticket,online,2025-03-26,5,Ticket for Fall Fundraiser 2025
+304,3,,250,event_ticket,credit_card,2025-04-05,5,Ticket for Fall Fundraiser 2025
+305,193,,250,event_ticket,online,2025-04-10,5,Ticket for Fall Fundraiser 2025
+306,166,,250,event_ticket,credit_card,2025-04-19,5,Ticket for Fall Fundraiser 2025
+307,25,,250,event_ticket,credit_card,2025-03-22,5,Ticket for Fall Fundraiser 2025
+308,94,,250,event_ticket,online,2025-03-21,5,Ticket for Fall Fundraiser 2025
+309,77,,250,event_ticket,online,2025-04-21,5,Ticket for Fall Fundraiser 2025
+310,81,,250,event_ticket,credit_card,2025-05-01,5,Ticket for Fall Fundraiser 2025
+311,153,,250,event_ticket,credit_card,2025-04-24,5,Ticket for Fall Fundraiser 2025
+312,8,,250,event_ticket,online,2025-03-24,5,Ticket for Fall Fundraiser 2025
+313,120,,250,event_ticket,online,2025-03-09,5,Ticket for Fall Fundraiser 2025
+314,163,,250,event_ticket,online,2025-04-03,5,Ticket for Fall Fundraiser 2025
+315,69,,250,event_ticket,credit_card,2025-04-11,5,Ticket for Fall Fundraiser 2025
+316,175,,250,event_ticket,credit_card,2025-03-15,5,Ticket for Fall Fundraiser 2025
+317,117,,250,event_ticket,credit_card,2025-03-29,5,Ticket for Fall Fundraiser 2025
+318,162,,250,event_ticket,credit_card,2025-04-24,5,Ticket for Fall Fundraiser 2025
+319,154,,250,event_ticket,credit_card,2025-04-03,5,Ticket for Fall Fundraiser 2025
+320,45,,250,event_ticket,credit_card,2025-03-29,5,Ticket for Fall Fundraiser 2025
+321,196,,250,event_ticket,online,2025-03-15,5,Ticket for Fall Fundraiser 2025
+322,121,,250,event_ticket,credit_card,2025-04-10,5,Ticket for Fall Fundraiser 2025
+323,93,,250,event_ticket,online,2025-04-15,5,Ticket for Fall Fundraiser 2025
+324,65,,250,event_ticket,credit_card,2025-03-26,5,Ticket for Fall Fundraiser 2025
+325,124,,250,event_ticket,credit_card,2025-04-23,5,Ticket for Fall Fundraiser 2025
+326,161,,250,event_ticket,credit_card,2025-03-20,5,Ticket for Fall Fundraiser 2025
+327,119,,250,event_ticket,credit_card,2025-04-12,5,Ticket for Fall Fundraiser 2025
+328,176,,250,event_ticket,credit_card,2025-03-12,5,Ticket for Fall Fundraiser 2025
+329,10,,250,event_ticket,online,2025-04-25,5,Ticket for Fall Fundraiser 2025
+330,59,,250,event_ticket,online,2025-05-01,5,Ticket for Fall Fundraiser 2025
+331,112,,250,event_ticket,credit_card,2025-04-28,5,Ticket for Fall Fundraiser 2025
+332,27,,250,event_ticket,credit_card,2025-04-18,5,Ticket for Fall Fundraiser 2025
+333,102,,250,event_ticket,online,2025-04-12,5,Ticket for Fall Fundraiser 2025
+334,108,,250,event_ticket,online,2025-03-23,5,Ticket for Fall Fundraiser 2025
+335,50,,250,event_ticket,credit_card,2025-04-23,5,Ticket for Fall Fundraiser 2025
+336,135,,250,event_ticket,online,2025-04-08,5,Ticket for Fall Fundraiser 2025
+337,180,,250,event_ticket,online,2025-03-27,5,Ticket for Fall Fundraiser 2025
+338,71,,250,event_ticket,online,2025-03-21,5,Ticket for Fall Fundraiser 2025
+339,171,,250,event_ticket,online,2025-03-13,5,Ticket for Fall Fundraiser 2025
+340,95,,250,event_ticket,online,2025-04-12,5,Ticket for Fall Fundraiser 2025
+341,169,,250,event_ticket,online,2025-03-22,5,Ticket for Fall Fundraiser 2025
+342,123,,250,event_ticket,credit_card,2025-04-17,5,Ticket for Fall Fundraiser 2025
+343,133,,250,event_ticket,online,2025-04-04,5,Ticket for Fall Fundraiser 2025
+344,46,,250,event_ticket,online,2026-01-14,5,Ticket for Community Health Fair
+345,23,,250,event_ticket,online,2025-12-24,5,Ticket for Community Health Fair
+346,178,,250,event_ticket,online,2025-12-08,5,Ticket for Community Health Fair
+347,37,,250,event_ticket,credit_card,2025-12-31,5,Ticket for Community Health Fair
+348,28,,250,event_ticket,credit_card,2026-01-18,5,Ticket for Community Health Fair
+349,196,,250,event_ticket,credit_card,2026-01-10,5,Ticket for Community Health Fair
+350,115,,250,event_ticket,credit_card,2025-11-26,5,Ticket for Community Health Fair
+351,52,,250,event_ticket,credit_card,2025-12-03,5,Ticket for Community Health Fair
+352,121,,250,event_ticket,online,2026-01-03,5,Ticket for Community Health Fair
+353,17,,250,event_ticket,credit_card,2026-01-14,5,Ticket for Community Health Fair
+354,182,,250,event_ticket,online,2025-12-20,5,Ticket for Community Health Fair
+355,124,,250,event_ticket,online,2025-12-20,5,Ticket for Community Health Fair
+356,109,,250,event_ticket,credit_card,2025-11-28,5,Ticket for Community Health Fair
+357,148,,250,event_ticket,credit_card,2026-01-09,5,Ticket for Community Health Fair
+358,170,,250,event_ticket,online,2025-12-19,5,Ticket for Community Health Fair
+359,137,,250,event_ticket,online,2026-01-06,5,Ticket for Community Health Fair
+360,6,,250,event_ticket,online,2025-12-11,5,Ticket for Community Health Fair
+361,123,,250,event_ticket,online,2026-01-11,5,Ticket for Community Health Fair
+362,187,,250,event_ticket,online,2025-12-01,5,Ticket for Community Health Fair
+363,116,,250,event_ticket,online,2025-12-06,5,Ticket for Community Health Fair
+364,108,,250,event_ticket,online,2025-12-26,5,Ticket for Community Health Fair
+365,183,,250,event_ticket,online,2025-12-22,5,Ticket for Community Health Fair
+366,136,,250,event_ticket,online,2025-12-08,5,Ticket for Community Health Fair
+367,185,,250,event_ticket,credit_card,2025-12-05,5,Ticket for Community Health Fair
+368,142,,250,event_ticket,online,2025-12-06,5,Ticket for Community Health Fair
+369,167,,250,event_ticket,credit_card,2025-12-23,5,Ticket for Community Health Fair
+370,18,,250,event_ticket,online,2025-12-16,5,Ticket for Community Health Fair
+371,98,,250,event_ticket,credit_card,2025-12-28,5,Ticket for Community Health Fair
+372,101,,25,event_ticket,credit_card,2024-10-03,2,Ticket for Annual Board Retreat
+373,10,,25,event_ticket,credit_card,2024-09-29,2,Ticket for Annual Board Retreat
+374,16,,25,event_ticket,credit_card,2024-10-28,2,Ticket for Annual Board Retreat
+375,7,,25,event_ticket,credit_card,2024-10-27,2,Ticket for Annual Board Retreat
+376,9,,25,event_ticket,online,2024-09-26,2,Ticket for Annual Board Retreat
+377,38,,25,event_ticket,credit_card,2024-10-11,2,Ticket for Annual Board Retreat
+378,77,,25,event_ticket,credit_card,2024-09-28,2,Ticket for Annual Board Retreat
+379,178,,25,event_ticket,credit_card,2024-10-23,2,Ticket for Annual Board Retreat
+380,129,,25,event_ticket,online,2024-10-17,2,Ticket for Annual Board Retreat
+381,150,,25,event_ticket,credit_card,2024-09-10,2,Ticket for Annual Board Retreat
+382,46,,25,event_ticket,credit_card,2024-09-28,2,Ticket for Annual Board Retreat
+383,113,,25,event_ticket,credit_card,2024-10-22,2,Ticket for Annual Board Retreat
+384,4,,25,event_ticket,online,2024-10-08,2,Ticket for Annual Board Retreat
+385,141,,25,event_ticket,credit_card,2024-09-14,2,Ticket for Annual Board Retreat
+386,31,,25,event_ticket,credit_card,2024-10-10,2,Ticket for Annual Board Retreat
+387,36,,25,event_ticket,credit_card,2024-11-02,2,Ticket for Annual Board Retreat
+388,170,,25,event_ticket,online,2024-09-21,2,Ticket for Annual Board Retreat
+389,58,,25,event_ticket,credit_card,2024-11-02,2,Ticket for Annual Board Retreat
+390,6,,25,event_ticket,online,2024-10-21,2,Ticket for Annual Board Retreat
+391,26,,25,event_ticket,credit_card,2024-09-25,2,Ticket for Annual Board Retreat
+392,185,,25,event_ticket,credit_card,2024-10-23,2,Ticket for Annual Board Retreat
+393,121,,25,event_ticket,credit_card,2024-09-05,2,Ticket for Annual Board Retreat
+394,59,,25,event_ticket,credit_card,2024-09-12,2,Ticket for Annual Board Retreat
+395,125,,25,event_ticket,credit_card,2024-10-28,2,Ticket for Annual Board Retreat
+396,149,,25,event_ticket,credit_card,2024-09-17,2,Ticket for Annual Board Retreat
+397,132,,25,event_ticket,credit_card,2024-10-11,2,Ticket for Annual Board Retreat
+398,61,,25,event_ticket,online,2024-09-17,2,Ticket for Annual Board Retreat
+399,105,,25,event_ticket,online,2024-09-18,2,Ticket for Annual Board Retreat
+400,35,,25,event_ticket,credit_card,2024-09-20,2,Ticket for Annual Board Retreat
+401,22,,25,event_ticket,online,2024-10-01,2,Ticket for Annual Board Retreat
+402,84,,25,event_ticket,online,2024-10-17,2,Ticket for Annual Board Retreat
+403,130,,25,event_ticket,online,2024-10-13,2,Ticket for Annual Board Retreat
+404,184,,25,event_ticket,credit_card,2024-10-08,2,Ticket for Annual Board Retreat
+405,49,,25,event_ticket,online,2024-10-29,2,Ticket for Annual Board Retreat
+406,56,,25,event_ticket,credit_card,2024-09-24,2,Ticket for Annual Board Retreat
+407,151,,25,event_ticket,online,2024-10-29,2,Ticket for Annual Board Retreat
+408,80,,25,event_ticket,credit_card,2024-09-09,2,Ticket for Annual Board Retreat
+409,173,,25,event_ticket,credit_card,2024-10-03,2,Ticket for Annual Board Retreat
+410,134,,25,event_ticket,credit_card,2024-09-24,2,Ticket for Annual Board Retreat
+411,8,,25,event_ticket,credit_card,2024-10-12,2,Ticket for Annual Board Retreat
+412,72,,25,event_ticket,online,2024-11-02,2,Ticket for Annual Board Retreat
+413,115,,25,event_ticket,credit_card,2024-10-09,2,Ticket for Annual Board Retreat
+414,112,,25,event_ticket,online,2024-09-11,2,Ticket for Annual Board Retreat
+415,126,,25,event_ticket,credit_card,2024-09-28,2,Ticket for Annual Board Retreat
+416,158,,25,event_ticket,credit_card,2024-09-28,2,Ticket for Annual Board Retreat
+417,45,,25,event_ticket,online,2024-10-15,2,Ticket for Annual Board Retreat
+418,190,,25,event_ticket,online,2024-09-22,2,Ticket for Annual Board Retreat
+419,146,,25,event_ticket,credit_card,2024-10-25,2,Ticket for Annual Board Retreat
+420,123,,25,event_ticket,credit_card,2024-10-08,2,Ticket for Annual Board Retreat
+421,167,,25,event_ticket,online,2024-09-28,2,Ticket for Annual Board Retreat
+422,118,,25,event_ticket,credit_card,2024-10-18,2,Ticket for Annual Board Retreat
+423,28,,25,event_ticket,online,2024-09-10,2,Ticket for Annual Board Retreat
+424,144,,25,event_ticket,online,2024-09-16,2,Ticket for Annual Board Retreat
+425,54,,25,event_ticket,credit_card,2024-10-02,2,Ticket for Annual Board Retreat
+426,17,,25,event_ticket,credit_card,2024-10-16,2,Ticket for Annual Board Retreat
+427,83,,25,event_ticket,credit_card,2024-10-12,2,Ticket for Annual Board Retreat
+428,52,,25,event_ticket,credit_card,2024-09-21,2,Ticket for Annual Board Retreat
+429,143,,25,event_ticket,online,2024-09-30,2,Ticket for Annual Board Retreat
+430,20,,25,event_ticket,online,2024-11-02,2,Ticket for Annual Board Retreat
+431,95,,25,event_ticket,online,2024-09-13,2,Ticket for Annual Board Retreat
+432,1,,25,event_ticket,online,2024-09-06,2,Ticket for Annual Board Retreat
+433,51,,25,event_ticket,credit_card,2024-09-10,2,Ticket for Annual Board Retreat
+434,157,,25,event_ticket,online,2024-10-25,2,Ticket for Annual Board Retreat
+435,85,,25,event_ticket,credit_card,2024-09-16,2,Ticket for Annual Board Retreat
+436,171,,25,event_ticket,online,2024-10-04,2,Ticket for Annual Board Retreat
+437,50,,25,event_ticket,credit_card,2024-10-24,2,Ticket for Annual Board Retreat
+438,82,,25,event_ticket,online,2024-10-04,2,Ticket for Annual Board Retreat
+439,169,,25,event_ticket,online,2024-09-10,2,Ticket for Annual Board Retreat
+440,25,,25,event_ticket,credit_card,2024-09-18,2,Ticket for Annual Board Retreat
+441,194,,25,event_ticket,credit_card,2024-09-24,,Ticket for Youth Mentorship Kickoff
+442,101,,25,event_ticket,online,2024-09-28,,Ticket for Youth Mentorship Kickoff
+443,189,,25,event_ticket,credit_card,2024-08-20,,Ticket for Youth Mentorship Kickoff
+444,53,,25,event_ticket,online,2024-08-04,,Ticket for Youth Mentorship Kickoff
+445,16,,25,event_ticket,online,2024-08-10,,Ticket for Youth Mentorship Kickoff
+446,125,,25,event_ticket,credit_card,2024-09-08,,Ticket for Youth Mentorship Kickoff
+447,44,,25,event_ticket,credit_card,2024-08-14,,Ticket for Youth Mentorship Kickoff
+448,17,,25,event_ticket,online,2024-09-29,,Ticket for Youth Mentorship Kickoff
+449,149,,25,event_ticket,credit_card,2024-08-13,,Ticket for Youth Mentorship Kickoff
+450,78,,25,event_ticket,credit_card,2024-08-06,,Ticket for Youth Mentorship Kickoff
+451,94,,25,event_ticket,online,2024-08-04,,Ticket for Youth Mentorship Kickoff
+452,34,,25,event_ticket,online,2024-08-22,,Ticket for Youth Mentorship Kickoff
+453,54,,25,event_ticket,credit_card,2024-08-23,,Ticket for Youth Mentorship Kickoff
+454,148,,25,event_ticket,credit_card,2024-08-08,,Ticket for Youth Mentorship Kickoff
+455,178,,25,event_ticket,online,2024-09-19,,Ticket for Youth Mentorship Kickoff
+456,161,,25,event_ticket,online,2024-09-28,,Ticket for Youth Mentorship Kickoff
+457,91,,25,event_ticket,online,2024-09-25,,Ticket for Youth Mentorship Kickoff
+458,170,,25,event_ticket,credit_card,2024-10-01,,Ticket for Youth Mentorship Kickoff
+459,122,,25,event_ticket,online,2024-08-23,,Ticket for Youth Mentorship Kickoff
+460,153,,25,event_ticket,online,2024-09-23,,Ticket for Youth Mentorship Kickoff
+461,151,,25,event_ticket,online,2024-09-10,,Ticket for Youth Mentorship Kickoff
+462,127,,25,event_ticket,online,2024-09-23,,Ticket for Youth Mentorship Kickoff
+463,10,,25,event_ticket,credit_card,2024-08-08,,Ticket for Youth Mentorship Kickoff
+464,25,,25,event_ticket,online,2024-09-07,,Ticket for Youth Mentorship Kickoff
+465,184,,25,event_ticket,credit_card,2024-10-01,,Ticket for Youth Mentorship Kickoff
+466,135,,25,event_ticket,credit_card,2024-08-07,,Ticket for Youth Mentorship Kickoff
+467,103,,25,event_ticket,online,2024-09-06,,Ticket for Youth Mentorship Kickoff
+468,52,,25,event_ticket,online,2024-08-22,,Ticket for Youth Mentorship Kickoff
+469,64,,25,event_ticket,online,2024-08-24,,Ticket for Youth Mentorship Kickoff
+470,157,,25,event_ticket,online,2024-09-05,,Ticket for Youth Mentorship Kickoff
+471,177,,25,event_ticket,credit_card,2024-09-05,,Ticket for Youth Mentorship Kickoff
+472,166,,25,event_ticket,online,2024-09-24,,Ticket for Youth Mentorship Kickoff
+473,47,,25,event_ticket,credit_card,2024-08-16,,Ticket for Youth Mentorship Kickoff
+474,26,,25,event_ticket,online,2024-08-25,,Ticket for Youth Mentorship Kickoff
+475,18,,25,event_ticket,credit_card,2024-08-31,,Ticket for Youth Mentorship Kickoff
+476,95,,25,event_ticket,online,2024-08-09,,Ticket for Youth Mentorship Kickoff
+477,19,,25,event_ticket,credit_card,2024-10-01,,Ticket for Youth Mentorship Kickoff
+478,83,,25,event_ticket,online,2024-08-13,,Ticket for Youth Mentorship Kickoff
+479,158,,25,event_ticket,online,2024-08-23,,Ticket for Youth Mentorship Kickoff
+480,38,,25,event_ticket,credit_card,2024-09-18,,Ticket for Youth Mentorship Kickoff
+481,122,,75,event_ticket,online,2025-08-15,,Ticket for Donor Appreciation Night
+482,151,,75,event_ticket,online,2025-09-11,,Ticket for Donor Appreciation Night
+483,165,,75,event_ticket,online,2025-08-22,,Ticket for Donor Appreciation Night
+484,64,,75,event_ticket,online,2025-08-03,,Ticket for Donor Appreciation Night
+485,104,,75,event_ticket,credit_card,2025-08-13,,Ticket for Donor Appreciation Night
+486,118,,75,event_ticket,credit_card,2025-09-25,,Ticket for Donor Appreciation Night
+487,188,,75,event_ticket,credit_card,2025-08-25,,Ticket for Donor Appreciation Night
+488,29,,75,event_ticket,credit_card,2025-09-13,,Ticket for Donor Appreciation Night
+489,31,,75,event_ticket,credit_card,2025-08-17,,Ticket for Donor Appreciation Night
+490,100,,75,event_ticket,online,2025-09-01,,Ticket for Donor Appreciation Night
+491,139,,75,event_ticket,credit_card,2025-08-16,,Ticket for Donor Appreciation Night
+492,23,,75,event_ticket,credit_card,2025-08-13,,Ticket for Donor Appreciation Night
+493,41,,75,event_ticket,credit_card,2025-09-06,,Ticket for Donor Appreciation Night
+494,46,,75,event_ticket,online,2025-09-02,,Ticket for Donor Appreciation Night
+495,92,,75,event_ticket,online,2025-08-13,,Ticket for Donor Appreciation Night
+496,183,,75,event_ticket,credit_card,2025-08-03,,Ticket for Donor Appreciation Night
+497,96,,75,event_ticket,online,2025-09-11,,Ticket for Donor Appreciation Night
+498,107,,75,event_ticket,credit_card,2025-08-03,,Ticket for Donor Appreciation Night
+499,50,,75,event_ticket,online,2025-09-02,,Ticket for Donor Appreciation Night
+500,13,,75,event_ticket,online,2025-09-06,,Ticket for Donor Appreciation Night
+501,37,,75,event_ticket,credit_card,2025-08-25,,Ticket for Donor Appreciation Night
+502,9,,75,event_ticket,online,2025-07-29,,Ticket for Donor Appreciation Night
+503,110,,75,event_ticket,online,2025-08-04,,Ticket for Donor Appreciation Night
+504,103,,75,event_ticket,credit_card,2025-08-22,,Ticket for Donor Appreciation Night
+505,136,,75,event_ticket,online,2025-08-05,,Ticket for Donor Appreciation Night
+506,5,,75,event_ticket,credit_card,2025-09-01,,Ticket for Donor Appreciation Night
+507,99,,75,event_ticket,credit_card,2025-07-28,,Ticket for Donor Appreciation Night
+508,35,,75,event_ticket,credit_card,2025-08-20,,Ticket for Donor Appreciation Night
+509,159,,75,event_ticket,credit_card,2025-08-19,,Ticket for Donor Appreciation Night
+510,74,,75,event_ticket,credit_card,2025-08-29,,Ticket for Donor Appreciation Night
+511,176,,75,event_ticket,online,2025-08-17,,Ticket for Donor Appreciation Night
+512,28,,75,event_ticket,credit_card,2025-09-17,,Ticket for Donor Appreciation Night
+513,77,,75,event_ticket,credit_card,2025-08-30,,Ticket for Donor Appreciation Night
+514,199,,75,event_ticket,online,2025-08-18,,Ticket for Donor Appreciation Night
+515,61,,75,event_ticket,online,2025-07-30,,Ticket for Donor Appreciation Night
+516,200,,75,event_ticket,online,2025-09-05,,Ticket for Donor Appreciation Night
+517,185,,75,event_ticket,online,2025-07-30,,Ticket for Donor Appreciation Night
+518,63,,75,event_ticket,online,2025-08-26,,Ticket for Donor Appreciation Night
+519,82,,75,event_ticket,online,2025-08-13,,Ticket for Donor Appreciation Night
+520,179,,75,event_ticket,online,2025-08-29,,Ticket for Donor Appreciation Night
+521,125,,75,event_ticket,online,2025-08-01,,Ticket for Donor Appreciation Night
+522,113,,75,event_ticket,credit_card,2025-09-08,,Ticket for Donor Appreciation Night
+523,155,,75,event_ticket,credit_card,2025-08-27,,Ticket for Donor Appreciation Night
+524,187,,75,event_ticket,online,2025-09-01,,Ticket for Donor Appreciation Night
+525,112,,75,event_ticket,credit_card,2025-09-22,,Ticket for Donor Appreciation Night
+526,25,,75,event_ticket,credit_card,2025-08-15,,Ticket for Donor Appreciation Night
+527,87,,75,event_ticket,online,2025-09-14,,Ticket for Donor Appreciation Night
+528,163,,75,event_ticket,online,2025-08-14,,Ticket for Donor Appreciation Night
+529,183,,50,event_ticket,credit_card,2025-10-19,8,Ticket for Summer Picnic
+530,167,,50,event_ticket,online,2025-12-04,8,Ticket for Summer Picnic
+531,106,,50,event_ticket,online,2025-11-29,8,Ticket for Summer Picnic
+532,47,,50,event_ticket,online,2025-12-05,8,Ticket for Summer Picnic
+533,96,,50,event_ticket,online,2025-10-10,8,Ticket for Summer Picnic
+534,15,,50,event_ticket,online,2025-12-01,8,Ticket for Summer Picnic
+535,59,,50,event_ticket,online,2025-10-13,8,Ticket for Summer Picnic
+536,86,,50,event_ticket,credit_card,2025-10-13,8,Ticket for Summer Picnic
+537,139,,50,event_ticket,online,2025-12-04,8,Ticket for Summer Picnic
+538,87,,50,event_ticket,online,2025-11-22,8,Ticket for Summer Picnic
+539,36,,50,event_ticket,online,2025-11-08,8,Ticket for Summer Picnic
+540,181,,50,event_ticket,online,2025-11-11,8,Ticket for Summer Picnic
+541,197,,50,event_ticket,credit_card,2025-11-09,8,Ticket for Summer Picnic
+542,60,,50,event_ticket,online,2025-11-25,8,Ticket for Summer Picnic
+543,19,,50,event_ticket,credit_card,2025-10-31,8,Ticket for Summer Picnic
+544,126,,50,event_ticket,credit_card,2025-10-12,8,Ticket for Summer Picnic
+545,91,,50,event_ticket,credit_card,2025-10-29,8,Ticket for Summer Picnic
+546,83,,50,event_ticket,credit_card,2025-10-28,8,Ticket for Summer Picnic
+547,119,,50,event_ticket,online,2025-10-14,8,Ticket for Summer Picnic
+548,185,,50,event_ticket,credit_card,2025-10-11,8,Ticket for Summer Picnic
+549,188,,50,event_ticket,credit_card,2025-11-18,8,Ticket for Summer Picnic
+550,97,,50,event_ticket,online,2025-10-30,8,Ticket for Summer Picnic
+551,118,,50,event_ticket,credit_card,2025-11-12,8,Ticket for Summer Picnic
+552,45,,50,event_ticket,credit_card,2025-10-30,8,Ticket for Summer Picnic
+553,68,,50,event_ticket,credit_card,2025-12-05,8,Ticket for Summer Picnic
+554,113,,50,event_ticket,credit_card,2025-11-01,8,Ticket for Summer Picnic
+555,176,,50,event_ticket,credit_card,2025-11-21,8,Ticket for Summer Picnic
+556,3,,50,event_ticket,credit_card,2025-10-24,8,Ticket for Summer Picnic
+557,14,,50,event_ticket,online,2025-10-07,8,Ticket for Summer Picnic
+558,152,,50,event_ticket,credit_card,2025-10-31,8,Ticket for Summer Picnic
+559,26,,50,event_ticket,credit_card,2025-11-04,8,Ticket for Summer Picnic
+560,159,,50,event_ticket,online,2025-11-29,8,Ticket for Summer Picnic
+561,154,,100,event_ticket,credit_card,2025-08-05,4,Ticket for Year-End Celebration
+562,151,,100,event_ticket,online,2025-09-05,4,Ticket for Year-End Celebration
+563,17,,100,event_ticket,credit_card,2025-08-15,4,Ticket for Year-End Celebration
+564,50,,100,event_ticket,credit_card,2025-08-05,4,Ticket for Year-End Celebration
+565,69,,100,event_ticket,online,2025-09-09,4,Ticket for Year-End Celebration
+566,40,,100,event_ticket,credit_card,2025-08-12,4,Ticket for Year-End Celebration
+567,65,,100,event_ticket,credit_card,2025-07-27,4,Ticket for Year-End Celebration
+568,128,,100,event_ticket,online,2025-08-31,4,Ticket for Year-End Celebration
+569,63,,100,event_ticket,credit_card,2025-09-06,4,Ticket for Year-End Celebration
+570,56,,100,event_ticket,online,2025-09-09,4,Ticket for Year-End Celebration
+571,130,,100,event_ticket,online,2025-08-03,4,Ticket for Year-End Celebration
+572,135,,100,event_ticket,credit_card,2025-08-14,4,Ticket for Year-End Celebration
+573,117,,100,event_ticket,online,2025-08-31,4,Ticket for Year-End Celebration
+574,107,,100,event_ticket,online,2025-08-04,4,Ticket for Year-End Celebration
+575,27,,100,event_ticket,online,2025-08-11,4,Ticket for Year-End Celebration
+576,43,,100,event_ticket,online,2025-08-01,4,Ticket for Year-End Celebration
+577,48,,100,event_ticket,online,2025-09-08,4,Ticket for Year-End Celebration
+578,59,,100,event_ticket,credit_card,2025-08-20,4,Ticket for Year-End Celebration
+579,155,,100,event_ticket,online,2025-08-17,4,Ticket for Year-End Celebration
+580,198,,100,event_ticket,credit_card,2025-07-26,4,Ticket for Year-End Celebration
+581,153,,100,event_ticket,credit_card,2025-08-30,4,Ticket for Year-End Celebration
