@@ -1,0 +1,30 @@
+{
+  "name": "nonprofit-data-playground",
+  "description": "Synthetic nonprofit CRM dataset for analytics and AI exploration.",
+  "tables": {
+    "people": "data/people.csv",
+    "companies": "data/companies.csv",
+    "payments": "data/payments.csv",
+    "in_kind_gifts": "data/in_kind_gifts.csv",
+    "events": "data/events.csv",
+    "registrations": "data/registrations.csv",
+    "campaigns": "data/campaigns.csv",
+    "memberships": "data/memberships.csv",
+    "volunteer_hours": "data/volunteer_hours.csv"
+  },
+  "relationships": [
+    "people.id -> payments.person_id",
+    "people.id -> in_kind_gifts.person_id",
+    "people.id -> registrations.person_id",
+    "people.id -> memberships.person_id",
+    "people.id -> volunteer_hours.person_id",
+    "people.company_id -> companies.id",
+    "companies.id -> payments.company_id",
+    "companies.id -> in_kind_gifts.company_id",
+    "companies.primary_contact_id -> people.id",
+    "campaigns.id -> payments.campaign_id",
+    "campaigns.id -> events.campaign_id",
+    "events.id -> registrations.event_id",
+    "events.id -> volunteer_hours.event_id"
+  ]
+}

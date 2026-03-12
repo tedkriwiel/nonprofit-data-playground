@@ -38,6 +38,28 @@ Download [`dashboard.html`](dashboard.html) and open it in your browser. No serv
 
 Want to customize it? Share the file with an AI and ask it to make changes. The HTML includes built-in instructions that help the AI modify it correctly.
 
+## AI Quick Prompt
+
+If you are using ChatGPT, Claude, or another AI assistant, paste this entire block as your first message:
+
+> Fetch the following CSV datasets and treat them as relational tables. Tables can be joined using the `id` fields listed in the schema.
+>
+> **DATASETS**
+>
+> people: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/people.csv
+> companies: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/companies.csv
+> payments: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/payments.csv
+> in_kind_gifts: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/in_kind_gifts.csv
+> events: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/events.csv
+> registrations: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/registrations.csv
+> campaigns: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/campaigns.csv
+> memberships: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/memberships.csv
+> volunteer_hours: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/volunteer_hours.csv
+>
+> For column definitions and table relationships, see: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/SCHEMA.md
+
+Then ask your question. The AI will fetch the data and answer it.
+
 ## Repository Map
 
 ```
@@ -55,6 +77,7 @@ nonprofit-data-playground/
 │
 ├── README.md            ← You are here
 ├── SCHEMA.md            ← Full data dictionary for AI systems
+├── dataset.json         ← Machine-readable dataset manifest
 ├── dashboard.html       ← Self-contained visual dashboard
 ├── what_is_a_forest.md  ← Source newsletter post
 ├── sources.md           ← Research sources
@@ -141,6 +164,41 @@ Tracked volunteer time.
 - **Key fields:** `person_id`, `date`, `hours`, `activity`, `event_id`
 - **146 rows**
 
+## Table Relationships
+
+```
+people.id → payments.person_id
+people.id → in_kind_gifts.person_id
+people.id → registrations.person_id
+people.id → memberships.person_id
+people.id → volunteer_hours.person_id
+people.company_id → companies.id
+
+companies.id → payments.company_id
+companies.id → in_kind_gifts.company_id
+companies.primary_contact_id → people.id
+
+campaigns.id → payments.campaign_id
+campaigns.id → events.campaign_id
+
+events.id → registrations.event_id
+events.id → volunteer_hours.event_id
+```
+
+## Dataset Size
+
+| Table | Rows |
+|-------|------|
+| people | 200 |
+| companies | 30 |
+| payments | 581 |
+| in_kind_gifts | 15 |
+| events | 12 |
+| registrations | 574 |
+| campaigns | 8 |
+| memberships | 40 |
+| volunteer_hours | 146 |
+
 ## Example Questions This Dataset Can Answer
 
 **Fundraising**
@@ -185,43 +243,14 @@ Each definition produces a different list of people and a different count. This 
 
 Scientists studying forests faced the same problem. Ten datasets, ten definitions, and they only agreed on [26% of the world's forest](https://news.mongabay.com/2026/02/scientists-cant-agree-on-where-the-worlds-forests-are/). Read the full story in [What Is a Forest?](what_is_a_forest.md)
 
-## AI Access to the Dataset
+## How AI Systems Should Use This Repository
 
-AI systems can retrieve this data directly using the raw GitHub URLs below. No authentication required.
+1. Read this README for an overview of the dataset and table relationships.
+2. Retrieve the CSV files using the raw URLs in the [AI Quick Prompt](#ai-quick-prompt) above.
+3. Use the [Table Relationships](#table-relationships) to join tables correctly.
+4. Refer to [SCHEMA.md](SCHEMA.md) for complete column definitions, data types, and enum values.
 
-```
-DATASETS
-
-people:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/people.csv
-
-companies:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/companies.csv
-
-payments:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/payments.csv
-
-in_kind_gifts:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/in_kind_gifts.csv
-
-events:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/events.csv
-
-registrations:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/registrations.csv
-
-campaigns:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/campaigns.csv
-
-memberships:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/memberships.csv
-
-volunteer_hours:
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/volunteer_hours.csv
-```
-
-For the full schema with column definitions, data types, enum values, and table relationships, see:
-https://github.com/tedkriwiel/nonprofit-data-playground/blob/main/SCHEMA.md
+Machine-readable dataset structure: [`dataset.json`](dataset.json) ([raw](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/dataset.json))
 
 ## Regenerating the Data
 
