@@ -14,11 +14,9 @@ The dataset accompanies the newsletter post [What Is a Forest?](what_is_a_forest
 
 ## Quick Start
 
-### Option 1: Ask an AI questions about the data
+Copy and paste this prompt into ChatGPT, Claude, or any AI assistant to get started:
 
-Copy this prompt into ChatGPT, Claude, or any AI tool:
-
-> Fetch the following CSV files and tell me who our top 10 donors are by total giving:
+> Fetch all of the following CSV files. These are relational tables from a nonprofit CRM.
 >
 > - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/people.csv
 > - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/companies.csv
@@ -29,36 +27,25 @@ Copy this prompt into ChatGPT, Claude, or any AI tool:
 > - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/campaigns.csv
 > - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/memberships.csv
 > - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/volunteer_hours.csv
-
-The AI will retrieve the data and answer your question. Follow up with whatever you're curious about.
-
-### Option 2: Explore the dashboard
-
-Download [`dashboard.html`](dashboard.html) and open it in your browser. No server needed — all the data is already embedded in the file.
-
-Want to customize it? Share the file with an AI and ask it to make changes. The HTML includes built-in instructions that help the AI modify it correctly.
-
-## AI Quick Prompt
-
-If you are using ChatGPT, Claude, or another AI assistant, paste this entire block as your first message:
-
-> Fetch the following CSV datasets and treat them as relational tables. Tables can be joined using the `id` fields listed in the schema.
->
-> **DATASETS**
->
-> people: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/people.csv
-> companies: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/companies.csv
-> payments: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/payments.csv
-> in_kind_gifts: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/in_kind_gifts.csv
-> events: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/events.csv
-> registrations: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/registrations.csv
-> campaigns: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/campaigns.csv
-> memberships: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/memberships.csv
-> volunteer_hours: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/volunteer_hours.csv
 >
 > For column definitions and table relationships, see: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/SCHEMA.md
+>
+> **After you fetch the data, do this:**
+>
+> 1. Generate a simple dashboard showing 4-6 key metrics from the data (total donors, total raised, event attendance rate, etc.). Use charts where possible.
+> 2. Then ask me: "What question do you want to explore?"
+> 3. When I ask a question, answer it with a chart or table. Explain briefly how you arrived at the answer — which tables and columns you used. Then offer to show the raw data behind it.
+> 4. Keep the conversation going. After each answer, suggest 2-3 follow-up questions I might find interesting.
+>
+> Do NOT write a long summary of the dataset. Do NOT explain the schema back to me. Just show me the dashboard and let me start asking questions.
 
-Then ask your question. The AI will fetch the data and answer it.
+That's it. The AI will fetch the data, show you a dashboard, and invite you to explore.
+
+### Explore the pre-built dashboard
+
+You can also download [`dashboard.html`](dashboard.html) and open it in your browser. No server needed — all the data is already embedded in the file.
+
+Want to customize it? Share the file with an AI and ask it to make changes. The HTML includes built-in instructions that help the AI modify it correctly.
 
 ## Repository Map
 
