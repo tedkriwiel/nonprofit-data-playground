@@ -14,36 +14,45 @@ The dataset accompanies the newsletter post [What Is a Forest?](what_is_a_forest
 
 ## Quick Start
 
-Copy and paste this prompt into ChatGPT, Claude, or any AI assistant to get started:
+### Option 1: Explore with an AI
 
-> Fetch all of the following CSV files. These are relational tables from a nonprofit CRM.
->
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/people.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/companies.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/payments.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/in_kind_gifts.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/events.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/registrations.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/campaigns.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/memberships.csv
-> - https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/volunteer_hours.csv
->
-> For column definitions and table relationships, see: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/SCHEMA.md
->
-> **After you fetch the data, do this:**
->
-> 1. Generate a simple dashboard showing 4-6 key metrics from the data (total donors, total raised, event attendance rate, etc.). Use charts where possible.
-> 2. Then ask me: "What question do you want to explore?"
-> 3. When I ask a question, answer it with a chart or table. Explain briefly how you arrived at the answer — which tables and columns you used. Then offer to show the raw data behind it.
-> 4. Keep the conversation going. After each answer, suggest 2-3 follow-up questions I might find interesting.
->
-> Do NOT write a long summary of the dataset. Do NOT explain the schema back to me. Just show me the dashboard and let me start asking questions.
+Copy and paste this prompt into ChatGPT, Claude, or any AI assistant:
 
-That's it. The AI will fetch the data, show you a dashboard, and invite you to explore.
+---
 
-### Explore the pre-built dashboard
+**You are a nonprofit data analyst.** I'm going to give you a dataset. Your job is to help me explore it interactively.
 
-You can also download [`dashboard.html`](dashboard.html) and open it in your browser. No server needed — all the data is already embedded in the file.
+**Rules:**
+- Do NOT summarize the dataset.
+- Do NOT explain the schema back to me.
+- Do NOT list what analyses are possible.
+- Do NOT write more than a few short paragraphs at a time.
+
+**What to do:**
+
+1. Fetch the JSON file below. It contains 9 relational tables (people, companies, payments, in_kind_gifts, events, registrations, campaigns, memberships, volunteer_hours).
+2. Show me a dashboard: 4-6 key metrics with charts (total revenue, number of donors, campaign progress, event attendance rate, etc.).
+3. Below the dashboard, ask me: **"What do you want to explore?"**
+4. When I ask a question:
+   - Answer it with a chart or table.
+   - In 1-2 sentences, explain how you calculated the answer (which tables, which columns).
+   - Offer: "Want to see the raw data behind this?"
+   - Suggest 2-3 follow-up questions.
+5. Repeat. This is a conversation, not a report.
+
+**Dataset (all tables in one file):**
+https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/dataset.json
+
+**Schema and relationships:**
+https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/SCHEMA.md
+
+**Start now. Show me the dashboard.**
+
+---
+
+### Option 2: Explore the pre-built dashboard
+
+Download [`dashboard.html`](dashboard.html) and open it in your browser. No server needed — all the data is already embedded in the file.
 
 Want to customize it? Share the file with an AI and ask it to make changes. The HTML includes built-in instructions that help the AI modify it correctly.
 
@@ -60,7 +69,8 @@ nonprofit-data-playground/
 │   ├── registrations.csv
 │   ├── campaigns.csv
 │   ├── memberships.csv
-│   └── volunteer_hours.csv
+│   ├── volunteer_hours.csv
+│   └── dataset.json        ← All tables in one file (for AI)
 │
 ├── README.md            ← You are here
 ├── SCHEMA.md            ← Full data dictionary for AI systems
@@ -232,12 +242,13 @@ Scientists studying forests faced the same problem. Ten datasets, ten definition
 
 ## How AI Systems Should Use This Repository
 
-1. Read this README for an overview of the dataset and table relationships.
-2. Retrieve the CSV files using the raw URLs in the [AI Quick Prompt](#ai-quick-prompt) above.
-3. Use the [Table Relationships](#table-relationships) to join tables correctly.
-4. Refer to [SCHEMA.md](SCHEMA.md) for complete column definitions, data types, and enum values.
+1. Fetch the combined dataset: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/dataset.json
+2. Use the [Table Relationships](#table-relationships) to join tables correctly.
+3. Refer to [SCHEMA.md](SCHEMA.md) for complete column definitions, data types, and enum values.
 
-Machine-readable dataset structure: [`dataset.json`](dataset.json) ([raw](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/dataset.json))
+Machine-readable dataset manifest: [`dataset.json`](dataset.json) ([raw](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/dataset.json))
+
+Individual CSV files are also available in [`data/`](data/) for human browsing.
 
 ## Regenerating the Data
 

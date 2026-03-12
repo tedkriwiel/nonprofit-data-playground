@@ -1,6 +1,7 @@
 {
   "name": "nonprofit-data-playground",
   "description": "Synthetic nonprofit CRM dataset for analytics and AI exploration.",
+  "combined": "data/dataset.json",
   "tables": {
     "people": "data/people.csv",
     "companies": "data/companies.csv",

@@ -407,4 +407,19 @@ writeCsv("in_kind_gifts.csv", ["id", "person_id", "company_id", "description", "
 writeCsv("memberships.csv", ["id", "person_id", "level", "fee", "start_date", "end_date", "status"], memberships);
 writeCsv("volunteer_hours.csv", ["id", "person_id", "date", "hours", "activity", "event_id"], volunteerHours);
 
+// ─── Write combined JSON ───
+const dataset = {
+  people,
+  companies,
+  campaigns,
+  events,
+  registrations,
+  payments,
+  in_kind_gifts: inKindGifts,
+  memberships,
+  volunteer_hours: volunteerHours,
+};
+fs.writeFileSync(path.join(DATA_DIR, "dataset.json"), JSON.stringify(dataset, null, 2) + "\n");
+console.log(`  dataset.json: ${Object.keys(dataset).length} tables`);
+
 console.log("\nDone!");
