@@ -22,20 +22,22 @@ The goal is to help nonprofit leaders **feel like data analysts** — to see how
 There are two ways to explore this data with an LLM:
 
 ### Option 1: Ask Questions About the Data
-Share this URL with ChatGPT, Claude, or another LLM and ask questions in plain English. The LLM can fetch the CSV files directly from GitHub.
+Copy and paste this into Claude or ChatGPT:
 
-**CSV files:**
-- [people.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/people.csv)
-- [companies.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/companies.csv)
-- [payments.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/payments.csv)
-- [in_kind_gifts.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/in_kind_gifts.csv)
-- [events.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/events.csv)
-- [registrations.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/registrations.csv)
-- [campaigns.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/campaigns.csv)
-- [memberships.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/memberships.csv)
-- [volunteer_hours.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/volunteer_hours.csv)
+> **Read the data dictionary at https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/SCHEMA.md and the dataset at https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/dataset.json — then explore.**
 
-**Example prompt:** "Fetch the CSV files above and tell me which donors gave last year but not this year."
+The dataset is a single JSON file containing all 9 tables. The LLM will fetch it and can answer questions immediately.
+
+**If you need individual CSV files** (e.g., for spreadsheet tools), they're also available:
+[people.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/people.csv) ·
+[companies.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/companies.csv) ·
+[payments.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/payments.csv) ·
+[in_kind_gifts.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/in_kind_gifts.csv) ·
+[events.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/events.csv) ·
+[registrations.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/registrations.csv) ·
+[campaigns.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/campaigns.csv) ·
+[memberships.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/memberships.csv) ·
+[volunteer_hours.csv](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/volunteer_hours.csv)
 
 ### Option 2: Build a Dashboard
 The file [`dashboard.html`](https://github.com/tedkriwiel/nonprofit-data-playground/blob/main/dashboard.html) is a self-contained HTML dashboard with all the data already embedded. No server required — just download and open in your browser.
