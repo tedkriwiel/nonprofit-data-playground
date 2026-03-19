@@ -1,6 +1,6 @@
 # Nonprofit CRM Data Model
 
-This is a sample dataset representing a small nonprofit organization's CRM (constituent relationship management) system. Use it to practice querying, analyzing, and building reports — the kind of work that helps nonprofit leaders make better decisions.
+This is a synthetic dataset representing a mid-size nonprofit's CRM (constituent relationship management) system — a ~$2.5M/year organization with 20% YoY growth across 2023-2025 (~$6.1M total revenue, 500 constituents). Use it to practice querying, analyzing, and building reports — the kind of work that helps nonprofit leaders make better decisions.
 
 ## Why This Exists
 
@@ -164,7 +164,7 @@ Membership program records.
 |--------|------|-------------|
 | id | integer | Primary key |
 | person_id | integer | Foreign key → people.id |
-| level | string | One of: Basic ($50), Silver ($150), Gold ($500), Platinum ($1,000) |
+| level | string | One of: Basic ($75), Silver ($250), Gold ($500), Platinum ($1,000), Benefactor ($2,500) |
 | fee | decimal | Annual fee |
 | start_date | date | YYYY-MM-DD |
 | end_date | date | YYYY-MM-DD |
@@ -238,9 +238,9 @@ When answering questions or generating code from this dataset:
 
 **Defining "Donor":**
 A critical question for any nonprofit. Depending on your definition, the number of "donors" changes significantly:
-- People who made **any payment** → includes service fees and ticket buyers (too broad)
-- People with a payment categorized as **"donation"** → misses grants and sponsorships
-- People with **donation, grant, or sponsorship** payments → misses in-kind contributors
-- People with donation/grant/sponsorship payments **OR** an in-kind gift → the broadest reasonable definition
+- People who made **any payment** → ~420 people (includes service fees and ticket buyers — too broad)
+- People with a payment categorized as **"donation"** → ~250 people (misses grants and sponsorships)
+- People with **donation, grant, or sponsorship** payments → ~280 people (misses in-kind contributors)
+- People with donation/grant/sponsorship payments **OR** an in-kind gift → ~290 people (broadest reasonable definition)
 
-Try each definition and see how the count changes.
+The gap between 250 and 420 is the whole point — definitions matter. Try each definition and see how the count changes.

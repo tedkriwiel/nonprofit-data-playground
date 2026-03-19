@@ -1,13 +1,33 @@
 id,name,date,location,capacity,ticket_price,campaign_id
-1,Spring Gala 2025,2024-08-29,"4598 Cesar Harbor, New Steve",483,100,
-2,Fall Fundraiser 2025,2025-05-02,"55723 Williamson Knolls, Rolfsonboro",307,250,5
-3,Community Health Fair,2026-01-24,"18896 The Poplars, Missoula",222,250,5
-4,Volunteer Appreciation Dinner,2025-05-10,"6408 McKenzie Coves, East Meaganland",459,0,3
-5,5K Fun Run for Education,2024-09-24,"78612 Wilkinson Fields, Kesslerboro",255,0,8
-6,Annual Board Retreat,2024-11-03,"191 The Hawthorns, Largo",378,25,2
-7,Holiday Giving Luncheon,2025-03-10,"90565 Buckridge Motorway, Fort Nona",488,0,3
-8,Youth Mentorship Kickoff,2024-10-03,"36258 Kingsway, South Charlie",335,25,
-9,Donor Appreciation Night,2025-09-26,"4274 Cleora Crossroad, Faystad",253,75,
-10,Summer Picnic,2025-12-06,"1465 Cremin Place, Port Eulahcester",71,50,8
-11,Leadership Conference,2024-10-23,"653 Metz Light, Kerlukeberg",146,0,4
-12,Year-End Celebration,2025-09-21,"295 S Lincoln Street, Boganburgh",53,100,4
+1,Spring Gala 2023,2023-04-24,"39068 Hill Road, The Villages",300,250,7
+2,Summer Picnic 2023,2023-07-25,"583 Cruickshank Estates, Langoshburgh",350,0,
+3,5K Fun Run 2023,2023-09-12,"839 Orn Walk, Lake Elena",200,35,
+4,Fall Fundraiser 2023,2023-11-25,"9924 Leannon Cliffs, Rochester Hills",175,150,
+5,Donor Appreciation Night 2023,2023-10-17,"59835 Harrison Avenue, New Leanntown",100,0,
+6,Holiday Luncheon 2023,2023-11-12,"3281 Wilderman Passage, Keelingtown",175,75,
+7,Volunteer Appreciation 2023,2023-03-18,"59244 The Paddock, Hickleton",100,0,
+8,Youth Mentorship Kickoff 2023,2023-02-19,"565 Jairo Mills, Greenville",100,0,
+9,Annual Board Retreat 2023,2023-02-10,"24049 Spruce Street, South Edisonside",20,0,
+10,Year-End Celebration 2023,2023-12-14,"5823 N Harrison Street, Alethafort",200,0,
+11,Leadership Conference 2023,2023-06-22,"3064 S Division Street, Los Angeles",100,100,
+12,Spring Gala 2024,2024-04-15,"99532 Amaya Light, Lake Gabrielleberg",300,525,8
+13,Summer Picnic 2024,2024-07-19,"7782 Franklin Avenue, Elizabeth",400,0,
+14,5K Fun Run 2024,2024-09-25,"90249 Lubowitz Radial, San Diego",200,37,
+15,Fall Fundraiser 2024,2024-10-07,"2283 Jacobi Centers, South Sonny",150,158,
+16,Donor Appreciation Night 2024,2024-10-12,"779 Laurel Close, Longview",100,0,
+17,Holiday Luncheon 2024,2024-11-09,"20895 Coronation Avenue, Long Beach",150,79,
+18,Volunteer Appreciation 2024,2024-03-07,"13022 E Broadway, Lake Rylee",100,0,
+19,Youth Mentorship Kickoff 2024,2024-02-12,"36362 Heath Road, Kearachester",60,0,
+20,Annual Board Retreat 2024,2024-02-20,"96415 Hillary Islands, Dickifield",20,0,
+21,Year-End Celebration 2024,2024-12-14,"633 Lauriane Glens, McClureville",100,0,
+22,Spring Gala 2025,2025-04-13,"7193 Marlene Spur, Lake Shawn",350,385,9
+23,Summer Picnic 2025,2025-06-22,"779 Bergstrom Land, West Kylieborough",400,0,
+24,5K Fun Run 2025,2025-09-22,"9088 Elias Freeway, Smyrna",200,39,
+25,Fall Fundraiser 2025,2025-11-07,"9198 Commercial Road, North Modesto",175,165,
+26,Donor Appreciation Night 2025,2025-10-08,"314 Diamond Heights, San Mateo",125,0,
+27,Holiday Luncheon 2025,2025-12-16,"7666 Juniper Close, Champaign",200,83,
+28,Volunteer Appreciation 2025,2025-03-12,"63846 Corine Hills, O'Reillystead",120,0,
+29,Youth Mentorship Kickoff 2025,2025-02-24,"13155 Rodriguez Walks, Bryan",80,0,
+30,Annual Board Retreat 2025,2025-01-08,"5277 Gordon Tunnel, Fannieburgh",20,0,
+31,Year-End Celebration 2025,2025-12-07,"120 Albany Road, New Haley",100,0,
+32,Leadership Conference 2025,2025-05-21,"400 N State Street, Predovicside",150,100,

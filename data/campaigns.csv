@@ -1,9 +1,14 @@
 id,name,goal_amount,start_date,end_date,status
-1,Annual Fund 2025,241418,2024-10-13,2025-04-13,completed
-2,Annual Fund 2024,46760,2025-01-05,2025-03-05,completed
-3,Capital Campaign - New Building,390617,2025-07-15,2025-08-15,completed
-4,Year-End Appeal 2025,431267,2024-10-13,2024-12-13,completed
-5,Year-End Appeal 2024,54622,2025-01-18,2025-05-18,active
-6,Spring Gala 2025,334039,2024-05-15,2024-07-15,completed
-7,Emergency Relief Fund,327886,2024-10-09,2024-12-09,completed
-8,Scholarship Fund,272912,2025-06-07,2025-12-07,completed
+1,Annual Fund 2023,730106,2023-01-01,2023-12-28,completed
+2,Annual Fund 2024,336904,2024-01-01,2024-12-28,completed
+3,Annual Fund 2025,377419,2025-01-01,2025-12-28,active
+4,Year-End Appeal 2023,24178,2023-10-01,2023-12-28,completed
+5,Year-End Appeal 2024,19201,2024-10-01,2024-12-28,completed
+6,Year-End Appeal 2025,24605,2025-10-01,2025-12-28,active
+7,Spring Gala 2023,214711,2023-03-01,2023-05-28,completed
+8,Spring Gala 2024,363021,2024-03-01,2024-05-28,completed
+9,Spring Gala 2025,405452,2025-03-01,2025-05-28,active
+10,Capital Campaign - New Building,272792,2024-01-01,2025-12-28,active
+11,Emergency Relief Fund,40838,2024-03-01,2024-09-28,completed
+12,Scholarship Fund,484489,2023-01-01,2025-12-28,active
+13,Major Gifts Initiative,581707,2024-01-01,2025-12-28,active

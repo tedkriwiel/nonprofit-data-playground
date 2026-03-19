@@ -1,31 +1,76 @@
 id,name,type,address,city,state,zip,website,primary_contact_id,created_at
-1,Wiegand LLC,Nonprofit,20867 Waino Stravenue,East Christelle,KS,42612-3471,https://pale-archaeology.name,1,2020-12-03
-2,White - Wintheiser,University,16414 Sylvia Flats,Hahnmouth,NV,97985,https://brilliant-cosset.biz,2,2021-10-05
-3,Goldner and Sons,Business,51809 Cumberland Street,Port Melanycester,RI,31863,https://gaseous-fencing.net/,3,2023-06-15
-4,"Kozey, Carter and Ratke",University,7454 Bernadette Burg,Haleymouth,VA,47202,https://vengeful-shoulder.name/,4,2024-09-19
-5,"Dibbert, Trantow and Lindgren",University,312 Schumm Terrace,New Haylieburgh,CO,93573,https://white-director.info,5,2021-08-18
-6,Bashirian - Monahan,Law Firm,39214 E Church Street,Rueckerburgh,OR,66508,https://descriptive-anticodon.name/,6,2023-09-02
-7,Langworth - Farrell,Nonprofit,73913 Thurman Trafficway,Lake Reanna,NV,20896-3378,https://sparkling-pantyhose.biz,7,2020-11-15
-8,"Moen, Altenwerth and Bradtke",Nonprofit,25662 E Broadway Street,Lake Mabel,TX,50322-9386,https://meager-minor.info,8,2021-01-21
-9,"Goyette, Bailey and O'Connell",Foundation,993 Tina Key,West Haven,TX,38315,https://rubbery-middle.biz,9,2023-05-01
-10,"Connelly, Leannon and Terry",University,732 The Hawthorns,Tuckahoe,MT,76778-3305,https://light-majority.com/,10,2023-03-14
-11,Bashirian - Senger,Business,57260 Justus Mill,Reingerworth,MT,72400,https://tangible-porter.info,11,2020-12-08
-12,Friesen - Lowe,University,3975 Johnston Fields,Port Adrianna,CO,08740,https://lined-comparison.info/,12,2022-02-27
-13,Nicolas Group,Business,5861 Ludie Brooks,Tristianstead,MD,45939-9101,https://burdensome-plugin.biz/,13,2021-09-22
-14,"Bailey, Schultz and Grady",Corporation,687 Elm Road,Port Raeworth,MA,73984,https://slimy-brook.org,14,2022-09-26
-15,"Hammes, Tremblay and Hudson",Corporation,139 North Road,Kirlinboro,KY,77704-0548,https://clear-cut-charlatan.net/,15,2023-05-07
-16,Boehm - Prohaska,Corporation,700 Howard Street,Port Ulises,WY,30754-9140,https://back-cardboard.biz/,16,2023-07-08
-17,"McCullough, Windler and Hirthe",Foundation,390 Alexandra Road,Maple Grove,WY,59566,https://powerless-monocle.org/,17,2020-03-30
-18,Wiegand - Toy,Law Firm,3143 Blick Wall,Plantation,NE,86198,https://serpentine-obedience.info,18,2025-01-18
-19,"Bayer, Balistreri and Hodkiewicz",University,253 Tower Road,Lake Forest,MA,08899,https://soft-unblinking.org,19,2021-05-04
-20,Christiansen and Sons,Nonprofit,76316 Rutherford Manors,Miami Beach,NH,41076-7210,https://overcooked-grandson.info/,20,2024-11-23
-21,Larkin and Sons,Business,8919 Gerlach Land,Levittown,KY,20111-1613,https://lined-pigpen.com,21,2021-01-15
-22,Cummings - Gottlieb,Foundation,24235 Albany Road,Murazikton,UT,02871-2346,https://lean-representation.biz/,22,2021-05-14
-23,"Tremblay, Langworth and Lemke",Corporation,5223 Emory Expressway,North Sigrid,NJ,74055-7412,https://punctual-middle.info/,23,2025-05-05
-24,Ferry Group,Foundation,21218 Judson Isle,Broken Arrow,MD,88216-9552,https://deserted-fellow.info,24,2022-10-01
-25,Buckridge - Monahan,Business,2450 Collier Causeway,Fort Pierce,SD,67544,https://vengeful-sonar.org/,25,2020-09-02
-26,"Wehner, Davis and Bergstrom",University,8172 Casey Spurs,Lednerbury,UT,84343,https://meager-department.org,26,2022-01-29
-27,Ullrich LLC,Corporation,631 Pleasant Street,Skylarfield,DE,27057,https://grounded-slime.biz,27,2024-08-01
-28,Hyatt - Schmeler,Foundation,77665 Ezekiel Dam,Mount Prospect,MA,91556,https://trustworthy-tribe.name/,28,2023-10-09
-29,"Quigley, Cremin and Mayer",Nonprofit,7994 Winifred Stream,Fort Sarahmouth,NJ,03803,https://mysterious-tooth.info/,29,2021-11-17
-30,"Klein, Fahey and Kling",Corporation,54935 Ankunding Plaza,Fort Caliview,CA,55072-8210,https://obedient-baseboard.net/,30,2022-06-15
+1,Renner - Nienow,Nonprofit,517 Nelson Street,Kundestad,MI,10635,https://extra-large-handle.net,,2019-09-12
+2,Greenfelder - Crooks,University,868 County Line Road,Melbourne,SD,31248-8054,https://closed-fit.org/,,2020-05-25
+3,Prosacco Inc,Corporation,924 Edd Burgs,Kuvaliston,IN,21492-6727,https://pretty-overcoat.name/,14,2018-09-02
+4,"Hammes, Dibbert and Bauch",Corporation,7052 Daniel Prairie,Fort Brionna,LA,98268,https://muddy-desk.biz,24,2024-08-26
+5,"Nader, Hayes and Heller",Nonprofit,987 Boehm Crossing,Newport Beach,AL,60156,https://eminent-promise.com,,2020-05-31
+6,"O'Hara, Stanton and Oberbrunner",University,1322 Kings Highway,Oak Park,SC,54172-0619,https://unwritten-gallery.biz,,2024-11-18
+7,Wisoky and Sons,Government,338 Ceasar Motorway,Plainfield,NH,69158,https://ruddy-premium.info,,2020-03-06
+8,"Schroeder, Stroman and Veum",Corporation,5767 W Broadway Street,South Aurelia,NH,45250,https://super-fowl.biz/,32,2021-11-15
+9,"Emmerich, Mueller and Bogan",Corporation,55679 Hand Spring,South Aric,AK,86411-2576,https://well-made-reconsideration.name/,61,2022-07-15
+10,Franey Inc,Foundation,110 Rupert Ranch,Axelmouth,MS,43660,https://potable-knuckle.org/,8,2022-11-19
+11,Bernier - Nitzsche,Business,69536 Lockman Views,Fort Susana,GA,10060,https://tepid-airline.net/,84,2020-02-03
+12,Predovic - Murphy,Nonprofit,782 Nestor Spur,Huntsville,ME,39847-7195,https://glittering-teammate.info,,2018-01-30
+13,"Bosco, Hammes and Wiegand",Business,664 Erna Points,Schillerfield,CA,05483,https://corny-riser.name/,134,2018-10-01
+14,Prohaska - Bins,Foundation,700 Howard Street,Port Ulises,WY,30754-9140,https://back-cardboard.biz/,86,2022-10-25
+15,"McCullough, Windler and Hirthe",Government,82909 Sigurd Meadow,Bellingham,NV,56646-5902,https://unimportant-impact.name,,2020-01-22
+16,Kohler - Hermann,Law Firm,1996 Hagenes Spurs,Crooksside,TN,76498-0038,https://criminal-mythology.info,,2025-03-11
+17,"Smitham, Koss and Johns",Corporation,18899 Runte Village,Diamond Bar,MN,96266,https://circular-pillow.name/,153,2023-09-23
+18,Stehr LLC,Business,8410 Pleasant Street,Effertzville,AL,53493,https://spherical-gripper.name,164,2024-05-24
+19,"Corkery, Walter and Kulas",Nonprofit,59436 Archibald Courts,East Brockfurt,GA,84611,https://deadly-duster.com/,,2018-08-29
+20,Koelpin - DuBuque,Government,5607 Bode Track,Bayamon,IN,71234-6347,https://faint-pronoun.org/,,2021-10-17
+21,Breitenberg Inc,Government,3230 Cory Glen,Fort Laurelchester,SC,05574,https://focused-freezing.name/,,2022-03-26
+22,Yost LLC,Corporation,11211 Chad Turnpike,New Hallieworth,CO,98821,https://vengeful-massage.name,175,2020-01-29
+23,"Dibbert, Hane and Kautzer",Business,3162 Crist Lights,Amelyborough,CT,93826,https://parched-instructor.info,184,2020-08-02
+24,"Simonis, Wintheiser and Casper",Business,910 North Street,Carmichael,SC,11865,https://ultimate-grandson.net/,192,2021-04-04
+25,Koepp Inc,Corporation,528 Little Union,Carrollshire,NY,17658,https://critical-exploration.com,205,2023-07-08
+26,Marks - Ruecker,Nonprofit,481 Center Street,Port Cameron,ID,76652-3195,https://lean-understanding.biz/,,2022-05-07
+27,Moore Group,Foundation,956 S Lincoln Street,New Lennieview,OR,94198-1985,https://impish-avalanche.info,97,2023-12-15
+28,Hartmann - Jacobi,Law Firm,9337 Fahey Lakes,East Jessieview,VA,56061,https://creamy-hawk.biz,,2025-05-23
+29,Mertz Group,Nonprofit,282 Alfreda Light,Annafort,MN,44511-8932,https://inborn-airman.biz,,2023-04-23
+30,Balistreri Group,University,70171 Ferry Club,Lake Russ,TN,62280,https://dreary-airport.com/,,2022-04-28
+31,Trantow and Sons,Nonprofit,3352 Jast Mission,Eldridgeshire,RI,84874,https://filthy-maintainer.name/,,2019-11-30
+32,Skiles - Wyman,Nonprofit,2209 Kirsten Forest,Macihaven,HI,19856,https://defensive-toaster.info,,2020-11-03
+33,Beahan Group,Business,162 Green Harbor,Gulgowskistead,MS,97202-5045,https://somber-bump.biz/,141,2023-05-26
+34,Pfeffer Inc,Business,87625 Bosco Valley,Fort Isabellaberg,NV,78668-2429,https://appropriate-priesthood.org,216,2019-05-04
+35,Von Group,Nonprofit,399 Meadow Way,Spokane,KS,05210-6370,https://natural-scrap.com/,,2022-08-22
+36,"Morissette, Feest and Bailey",University,185 The Croft,Glendale,RI,46897,https://insecure-reconsideration.com/,,2018-10-27
+37,Grant Inc,Foundation,10943 E 1st Street,San Jacinto,CA,89461,https://enraged-typeface.name,124,2022-07-04
+38,Feeney Group,Business,27309 W Washington Avenue,Chicago,MD,61822-5550,https://favorite-celsius.org,223,2025-01-31
+39,"Schowalter, O'Kon and Lubowitz",Nonprofit,43274 Daisha Ports,Port Jerodmouth,NJ,36528-7688,https://tattered-postbox.net,,2022-08-03
+40,"Cronin, Thompson and Swaniawski",Corporation,81371 The Sidings,Adahboro,NM,62657-1759,https://pretty-tribe.biz/,246,2024-12-13
+41,"Bernhard, Gutkowski and Quigley",Business,63608 Willow Drive,Christiansenfort,AK,34764,https://zany-hoof.info/,255,2019-03-20
+42,"Powlowski, Ernser and Bode",Corporation,629 Holly Village,Loyalview,IN,48220-6384,https://dependent-summary.net,285,2023-09-19
+43,"Rowe, Murazik and Cole",Business,96741 Marlin Key,South Anissa,NJ,73400,https://lone-nerve.com/,290,2023-02-26
+44,"Satterfield, Batz and Kshlerin",Foundation,39146 Nelson Road,West Josephineland,LA,03156,https://distant-colon.biz,208,2022-09-20
+45,"Bartell, Weber and Bechtelar",Corporation,7878 Schultz Circle,Mesquite,SD,65700,https://curly-sundae.com/,317,2025-03-27
+46,Deckow and Sons,Foundation,5572 Windmill Close,Dooleychester,AR,24877,https://grubby-galoshes.org/,229,2018-04-19
+47,"Mayert, Kessler and Reinger",Corporation,8942 Veum Expressway,Murraycester,CT,91291-8428,https://mild-fort.name/,384,2019-03-19
+48,Wisozk Inc,Business,3719 Feil Centers,New Ethylhaven,MI,67110,https://radiant-intent.org,411,2023-12-22
+49,Stroman Group,Foundation,30590 Izabella View,New Allen,DE,90968-4546,https://ample-exhaust.net/,284,2019-07-01
+50,"Wisozk, Botsford and Pacocha",Corporation,8168 S Bridge Street,Liamhaven,NH,96626,https://puzzled-bump.name/,429,2025-05-30
+51,Wolff - Jaskolski,Law Firm,857 Lancaster Road,Lake Rafaela,RI,48150-3336,https://key-descendant.info/,,2019-09-08
+52,Mitchell - Ortiz,Nonprofit,5385 Balistreri Greens,South Kraig,NE,78790-1068,https://vast-bandwidth.org/,,2020-08-10
+53,Kuhic - Gerhold,Nonprofit,38536 E Water Street,Bonitaberg,OH,57152,https://lost-shark.name,,2018-04-28
+54,Wilderman LLC,Foundation,822 Jenkins Stream,Glenview,ID,28460-6451,https://tough-cycle.biz,306,2018-03-06
+55,Mohr LLC,Business,45491 Lancaster Road,Mikelchester,WY,17520,https://unlawful-cork.com/,442,2019-09-06
+56,Bernhard LLC,University,82586 Hane Glens,Ziemannchester,NV,40591-6250,https://slushy-folklore.name/,,2023-11-25
+57,"Feest, Jacobi and Cremin",Foundation,958 Mueller Cliff,Champlinfield,SC,03230-9533,https://peppery-lay.org/,309,2021-09-07
+58,"Stark, Durgan and Waters",Business,83888 Front Street,South Chaddchester,LA,68189-4671,https://impeccable-cheetah.info,476,2018-07-04
+59,Collier - Windler,Business,9435 Braun Pine,New Mabelle,DE,74090,https://worthless-design.biz,,2018-11-25
+60,Bradtke - Pouros,Corporation,59863 Legros Key,Fort Israelberg,ME,87704,https://agreeable-disposer.net/,,2019-01-07
+61,Emard Group,Nonprofit,98941 Kling Street,South Cameronborough,OR,33478,https://spiteful-eyebrow.net,,2021-03-31
+62,Spencer - Batz,Business,566 Prospect Place,Bergstrommouth,DE,56007-0009,https://handy-entry.info,,2023-09-29
+63,Denesik Group,Corporation,67200 Fore Street,Mullerbury,HI,67650,https://steel-embarrassment.org,,2022-06-18
+64,Rogahn and Sons,Corporation,2392 Kemmer Knoll,Welchburgh,CT,86288,https://urban-disadvantage.net,,2021-06-01
+65,"Rempel, Sanford and O'Reilly",Foundation,59901 Moises Square,New Romaine,OR,55256-8671,https://admired-devil.net/,338,2025-05-09
+66,Jacobs - Schmidt,Law Firm,57613 N Walnut Street,Port Alfonzofort,HI,33138-9347,https://paltry-grandpa.info,,2023-02-27
+67,Mraz - Hermiston,Corporation,154 Bergnaum Orchard,Kellenstead,ND,28400-3777,https://joyous-chiffonier.com,,2021-03-21
+68,Ernser - Metz,Business,996 Nicolas Shores,South Rolandobury,NH,13300-8252,https://far-off-hornet.org,,2024-03-29
+69,Schmitt - Koch,Business,2074 Renner Run,New Briannefort,NC,00222-9227,https://soupy-baseboard.info/,198,2018-04-02
+70,Ullrich - Conn,Corporation,4380 Windler Mount,Azusa,MA,79261,https://left-vol.name,,2020-08-04
+71,Corwin - Fahey,Nonprofit,85518 Beach Road,Littleton,MN,19864,https://putrid-mallard.biz/,,2021-10-19
+72,"Koelpin, Bechtelar and Schaden",Corporation,31375 Seth Trafficway,Delano,MN,70049-5416,https://hurtful-sandbar.org,,2019-07-06
+73,Grant and Sons,Corporation,6739 Crona Radial,Halvorsonhaven,VA,91218,https://crooked-hunt.name,,2018-08-15
+74,"Schneider, Labadie and Wisoky",Government,9661 Madison Avenue,North Keirastad,OK,07188-5734,https://lawful-formation.info,,2024-02-21
+75,Daniel LLC,Business,121 Klein Route,Mrazbury,TX,96163,https://black-and-white-completion.org,,2019-09-08

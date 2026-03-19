@@ -1,147 +1,660 @@
 id,person_id,date,hours,activity,event_id
-1,34,2024-04-29,1.5,Data entry,
-2,34,2025-01-08,6.8,Board meeting,4
-3,34,2026-01-18,1.4,Committee work,5
-4,34,2025-01-29,3.9,Mentoring,6
-5,34,2024-06-01,2.4,Mentoring,8
-6,34,2025-09-21,5,Committee work,10
-7,54,2025-06-10,4.1,Transportation,2
-8,54,2025-11-09,6.5,Office admin,12
-9,54,2024-01-10,2.5,Event setup,12
-10,54,2025-08-19,6.7,Event setup,8
-11,54,2025-07-10,2.1,Transportation,2
-12,61,2025-01-10,5.6,Mentoring,3
-13,61,2024-06-10,2.6,Office admin,6
-14,67,2024-12-11,6.5,Board meeting,2
-15,67,2024-02-08,7.2,Event setup,3
-16,67,2024-01-18,5.4,Teaching,
-17,67,2025-11-30,3.9,Fundraising calls,5
-18,75,2024-04-18,1.9,Mentoring,4
-19,87,2026-01-28,5.1,Community outreach,6
-20,87,2024-12-27,3.3,Mentoring,3
-21,94,2026-02-17,1.3,Mentoring,7
-22,94,2024-05-27,3.5,Mentoring,7
-23,94,2024-08-02,3.4,Event setup,7
-24,94,2026-02-14,3.3,Committee work,
-25,94,2026-01-21,6.6,Transportation,
-26,94,2024-02-29,4.2,Community outreach,12
-27,100,2025-09-07,7.2,Board meeting,12
-28,100,2025-02-16,7.5,Committee work,
-29,100,2025-06-15,3.1,Event setup,
-30,100,2025-04-07,3.1,Mentoring,
-31,100,2025-10-22,6.7,Transportation,6
-32,100,2024-08-27,1,Committee work,2
-33,107,2025-02-01,4.7,Community outreach,1
-34,107,2025-09-02,1.3,Event setup,7
-35,107,2024-02-19,6.6,Teaching,1
-36,107,2024-02-01,5.3,Committee work,7
-37,108,2025-09-23,5.3,Office admin,10
-38,108,2025-05-10,6.2,Transportation,
-39,108,2024-06-04,7.7,Teaching,11
-40,108,2024-03-19,3.7,Board meeting,11
-41,115,2025-03-07,1.6,Community outreach,
-42,123,2025-11-08,7.5,Fundraising calls,11
-43,130,2025-05-31,3.4,Fundraising calls,7
-44,130,2024-04-24,6.9,Fundraising calls,7
-45,130,2025-12-06,4.5,Teaching,
-46,136,2024-05-13,4.3,Community outreach,6
-47,136,2024-10-20,2.3,Mentoring,12
-48,136,2025-08-30,7.8,Board meeting,4
-49,136,2024-02-01,7.9,Fundraising calls,5
-50,136,2025-12-15,5.1,Office admin,
-51,136,2026-02-22,1.6,Committee work,6
-52,140,2025-12-22,7.9,Office admin,4
-53,140,2024-03-04,4.9,Event setup,7
-54,140,2024-02-27,3.8,Event setup,
-55,140,2024-06-14,3.3,Committee work,12
-56,148,2024-02-26,6,Fundraising calls,12
-57,148,2024-12-17,3.4,Data entry,12
-58,157,2024-02-09,4.7,Event setup,8
-59,157,2025-11-29,3.5,Community outreach,10
-60,157,2026-01-07,6.3,Mentoring,4
-61,157,2024-11-07,2.2,Data entry,8
-62,157,2026-01-24,4,Board meeting,
-63,157,2025-11-22,2.4,Data entry,6
-64,158,2024-10-11,6.8,Data entry,8
-65,158,2026-02-14,1.4,Data entry,12
-66,158,2024-04-29,5.3,Office admin,
-67,170,2024-09-16,5.2,Mentoring,5
-68,170,2024-11-24,3.5,Teaching,9
-69,174,2025-05-31,3.1,Mentoring,12
-70,174,2025-11-02,2.8,Data entry,8
-71,174,2025-02-24,5.6,Event setup,11
-72,174,2024-02-18,4.3,Committee work,7
-73,176,2026-02-16,7.3,Board meeting,7
-74,183,2026-01-12,4.7,Committee work,6
-75,183,2024-09-21,7.9,Teaching,3
-76,193,2025-01-15,1.3,Data entry,7
-77,193,2025-09-06,3.5,Community outreach,3
-78,196,2024-03-11,6.2,Community outreach,
-79,196,2025-03-14,4.4,Committee work,
-80,196,2026-02-19,3.8,Community outreach,3
-81,196,2024-07-19,1.6,Office admin,12
-82,56,2025-09-06,5.4,Teaching,11
-83,56,2024-11-04,6.9,Transportation,11
-84,56,2025-02-26,7.2,Office admin,6
-85,56,2025-09-05,4.4,Committee work,6
-86,56,2024-10-18,7.3,Data entry,8
-87,56,2024-09-19,2.9,Transportation,2
-88,172,2025-09-06,2.3,Transportation,10
-89,172,2024-05-25,2.9,Data entry,11
-90,172,2025-05-18,4.7,Board meeting,12
-91,172,2025-05-02,6.5,Fundraising calls,
-92,172,2025-04-30,6.8,Teaching,4
-93,172,2025-03-03,3.6,Transportation,8
-94,154,2025-06-18,5.8,Office admin,
-95,154,2025-10-26,6.6,Fundraising calls,9
-96,154,2024-04-18,4.8,Mentoring,9
-97,154,2025-05-26,3.7,Data entry,
-98,154,2024-03-26,6.6,Mentoring,1
-99,154,2024-05-26,6.4,Data entry,
-100,157,2024-01-18,6,Mentoring,12
-101,157,2024-05-12,3.4,Board meeting,
-102,157,2024-10-20,6.8,Mentoring,
-103,157,2025-06-02,2.3,Fundraising calls,2
-104,92,2024-06-09,5.5,Community outreach,1
-105,92,2025-03-02,5,Community outreach,8
-106,92,2025-03-04,4.3,Office admin,1
-107,164,2024-02-11,4.9,Fundraising calls,9
-108,164,2024-04-15,7.6,Committee work,3
-109,164,2024-09-27,5.3,Event setup,6
-110,19,2025-12-23,7,Teaching,8
-111,19,2026-01-04,7.6,Community outreach,2
-112,193,2025-06-17,4.8,Event setup,1
-113,83,2025-11-16,3.5,Committee work,9
-114,83,2025-09-27,4,Mentoring,7
-115,83,2024-12-26,4.9,Mentoring,
-116,83,2024-07-11,2.4,Teaching,9
-117,83,2024-12-13,6.4,Teaching,10
-118,83,2025-07-25,1.1,Teaching,
-119,147,2024-11-15,7.5,Fundraising calls,7
-120,8,2024-06-06,1.4,Committee work,
-121,8,2025-01-07,4.6,Committee work,12
-122,8,2024-07-28,1.1,Data entry,
-123,8,2025-12-07,7.7,Committee work,9
-124,8,2024-12-16,6.5,Board meeting,9
-125,8,2024-03-09,7.5,Data entry,6
-126,20,2025-06-15,2.4,Committee work,5
-127,20,2024-05-27,3.8,Board meeting,
-128,20,2025-09-30,7.6,Mentoring,2
-129,20,2025-03-16,3,Committee work,11
-130,151,2024-07-20,4.4,Teaching,4
-131,151,2025-04-10,4.1,Data entry,6
-132,151,2024-01-14,4.7,Fundraising calls,1
-133,151,2024-08-30,2.9,Fundraising calls,2
-134,151,2025-02-04,5.9,Transportation,
-135,151,2024-12-22,4.6,Committee work,7
-136,87,2024-12-08,3.9,Board meeting,3
-137,87,2024-09-24,2.5,Fundraising calls,4
-138,87,2025-04-02,6.6,Board meeting,6
-139,87,2026-02-19,5.2,Fundraising calls,
-140,87,2025-07-29,6.3,Mentoring,8
-141,171,2025-02-01,5.8,Teaching,
-142,171,2024-08-12,5,Mentoring,11
-143,171,2025-07-31,1.3,Transportation,7
-144,171,2024-04-07,3.9,Mentoring,7
-145,171,2024-10-30,6.2,Board meeting,10
-146,171,2024-01-18,7.6,Transportation,1
+1,9,2023-04-27,4.1,Office admin,
+2,9,2023-07-14,5.7,Board meeting,
+3,9,2023-06-22,2.9,Event setup,11
+4,9,2023-02-22,6.8,Mentoring,
+5,9,2023-02-08,4.7,Office admin,
+6,9,2024-03-07,6.2,Event setup,18
+7,9,2024-11-16,7.9,Office admin,
+8,9,2024-10-07,5.2,Event setup,15
+9,9,2024-02-12,2,Event setup,19
+10,9,2025-11-18,6.7,Mentoring,
+11,29,2023-09-28,3.2,Teaching,
+12,29,2023-06-22,4.8,Event setup,11
+13,29,2023-08-08,2.5,Teaching,
+14,29,2023-09-18,3.9,Committee work,
+15,29,2023-01-15,6.3,Community outreach,
+16,29,2023-05-19,5.6,Mentoring,
+17,29,2023-07-02,2.1,Fundraising calls,
+18,29,2023-10-17,3.4,Event setup,5
+19,29,2024-09-27,4.2,Event setup,
+20,29,2024-02-12,5.6,Event setup,19
+21,29,2024-04-12,2.4,Board meeting,
+22,29,2024-04-15,3.7,Event setup,12
+23,29,2025-02-02,4.8,Transportation,
+24,29,2025-09-09,6.9,Teaching,
+25,29,2025-08-14,7.4,Teaching,
+26,38,2023-03-18,5.8,Event setup,7
+27,38,2023-07-28,3.2,Teaching,
+28,38,2023-04-24,7,Event setup,1
+29,38,2023-03-18,8,Event setup,7
+30,38,2023-09-12,6.6,Event setup,3
+31,38,2023-12-14,2,Event setup,10
+32,38,2023-01-25,7.6,Committee work,
+33,38,2024-01-28,2.8,Fundraising calls,
+34,38,2024-11-12,5.3,Transportation,
+35,38,2024-11-16,6.7,Community outreach,
+36,38,2025-05-21,6.8,Event setup,32
+37,40,2023-11-13,2.3,Committee work,
+38,40,2023-03-22,6,Community outreach,
+39,40,2023-10-24,2.6,Board meeting,
+40,40,2023-04-24,5.3,Event setup,1
+41,40,2023-07-19,7.6,Transportation,
+42,40,2024-02-25,6.6,Mentoring,
+43,40,2025-12-16,4.8,Event setup,27
+44,40,2025-12-16,2.9,Event setup,27
+45,40,2025-12-15,6.9,Data entry,
+46,40,2025-04-13,5,Event setup,22
+47,204,2023-08-07,7.9,Data entry,
+48,204,2023-03-25,4,Transportation,
+49,204,2023-05-15,2.6,Fundraising calls,
+50,204,2023-03-18,3.9,Event setup,7
+51,204,2023-03-18,5.5,Event setup,7
+52,204,2023-06-28,4.9,Committee work,
+53,204,2023-07-15,8,Mentoring,
+54,204,2024-10-30,4.4,Fundraising calls,
+55,204,2024-02-20,6.3,Event setup,20
+56,204,2024-02-12,2.2,Event setup,19
+57,204,2025-06-18,7.1,Transportation,
+58,261,2023-05-04,7,Committee work,
+59,261,2023-01-05,7.3,Event setup,
+60,261,2023-05-31,7.6,Data entry,
+61,261,2023-09-09,2.1,Teaching,
+62,261,2023-08-05,2.4,Event setup,
+63,261,2023-12-14,4.1,Event setup,10
+64,261,2023-05-23,6.3,Office admin,
+65,261,2023-10-17,6.4,Event setup,5
+66,261,2024-02-20,2.4,Event setup,20
+67,261,2024-04-15,7.5,Event setup,12
+68,261,2024-05-14,4.3,Transportation,
+69,261,2024-07-19,7.1,Event setup,13
+70,261,2025-03-24,2.5,Community outreach,
+71,341,2023-06-18,5.3,Data entry,
+72,341,2023-10-02,6.9,Teaching,
+73,341,2023-02-26,2.1,Transportation,
+74,341,2023-03-18,6.3,Event setup,7
+75,341,2023-01-16,7.4,Event setup,
+76,341,2023-01-20,6.4,Community outreach,
+77,341,2023-11-22,7.3,Teaching,
+78,341,2023-08-14,7.4,Committee work,
+79,341,2024-08-13,7.6,Mentoring,
+80,341,2024-12-14,5.3,Event setup,21
+81,341,2024-11-06,7.1,Mentoring,
+82,341,2024-02-12,6.7,Event setup,19
+83,341,2025-06-24,4.8,Community outreach,
+84,352,2023-11-25,4,Event setup,4
+85,352,2023-04-07,4.6,Board meeting,
+86,352,2023-02-19,3.2,Event setup,8
+87,352,2023-06-22,4.2,Event setup,11
+88,352,2023-11-02,4.1,Fundraising calls,
+89,352,2023-08-09,4.2,Board meeting,
+90,352,2024-04-15,3.6,Event setup,12
+91,352,2024-11-30,7.2,Office admin,
+92,352,2024-10-22,6.4,Transportation,
+93,352,2024-11-10,6.9,Mentoring,
+94,352,2025-03-09,3.3,Board meeting,
+95,352,2025-10-08,4.3,Event setup,26
+96,352,2025-05-21,6.9,Event setup,32
+97,462,2023-10-17,4.5,Event setup,5
+98,462,2023-12-14,7.1,Event setup,10
+99,462,2023-10-21,6.4,Transportation,
+100,462,2023-09-17,5.8,Board meeting,
+101,462,2023-06-22,2.1,Event setup,11
+102,462,2024-02-20,7.9,Event setup,20
+103,462,2024-11-08,4,Mentoring,
+104,462,2024-10-07,5.8,Event setup,15
+105,462,2025-04-13,3.3,Event setup,22
+106,462,2025-11-07,3.3,Event setup,25
+107,462,2025-11-08,2.6,Committee work,
+108,462,2025-08-29,6.9,Fundraising calls,
+109,45,2023-03-03,3.1,Board meeting,
+110,45,2023-04-12,2.9,Board meeting,
+111,45,2023-09-13,3.4,Board meeting,
+112,45,2023-12-15,2.8,Board meeting,
+113,45,2024-03-29,2.8,Board meeting,
+114,45,2024-06-08,3.8,Board meeting,
+115,45,2024-09-08,2.2,Board meeting,
+116,45,2024-10-19,2.5,Board meeting,
+117,45,2025-02-25,2.9,Board meeting,
+118,45,2025-05-11,2.1,Board meeting,
+119,45,2025-08-24,4,Board meeting,
+120,45,2025-10-24,2.5,Board meeting,
+121,141,2023-02-04,3.2,Board meeting,
+122,141,2023-06-06,2,Board meeting,
+123,141,2023-09-21,3.6,Board meeting,
+124,141,2023-10-27,2.8,Board meeting,
+125,141,2024-01-27,3.4,Board meeting,
+126,141,2024-05-02,3.4,Board meeting,
+127,141,2024-08-22,3.5,Board meeting,
+128,141,2024-11-06,3.9,Board meeting,
+129,141,2025-01-19,2.4,Board meeting,
+130,141,2025-06-03,4,Board meeting,
+131,141,2025-08-01,3.8,Board meeting,
+132,141,2025-12-21,2.5,Board meeting,
+133,141,2025-11-29,4.6,Committee work,
+134,198,2023-01-10,3.2,Board meeting,
+135,198,2023-04-03,2.1,Board meeting,
+136,198,2023-08-10,2.7,Board meeting,
+137,198,2023-10-23,3.6,Board meeting,
+138,198,2024-02-22,3.2,Board meeting,
+139,198,2024-05-08,2.1,Board meeting,
+140,198,2024-07-21,3.9,Board meeting,
+141,198,2024-10-21,3,Board meeting,
+142,198,2025-01-04,2.4,Board meeting,
+143,198,2025-06-02,3.1,Board meeting,
+144,198,2025-09-19,3,Board meeting,
+145,198,2025-11-19,3,Board meeting,
+146,219,2023-02-16,4,Board meeting,
+147,219,2023-06-18,3.1,Board meeting,
+148,219,2023-09-24,2.6,Board meeting,
+149,219,2023-12-05,2.9,Board meeting,
+150,219,2024-01-05,2.3,Board meeting,
+151,219,2024-05-07,2.8,Board meeting,
+152,219,2024-09-26,2.2,Board meeting,
+153,219,2024-12-04,2.7,Board meeting,
+154,219,2025-01-01,2.7,Board meeting,
+155,219,2025-06-01,2.4,Board meeting,
+156,219,2025-08-08,2.1,Board meeting,
+157,219,2025-10-17,3.1,Board meeting,
+158,280,2023-01-15,3.2,Board meeting,
+159,280,2023-04-16,3.4,Board meeting,
+160,280,2023-09-18,3.8,Board meeting,
+161,280,2023-12-29,3.5,Board meeting,
+162,280,2023-04-19,5.2,Committee work,
+163,280,2024-02-08,3.3,Board meeting,
+164,280,2024-06-11,3.2,Board meeting,
+165,280,2024-08-04,2.1,Board meeting,
+166,280,2024-12-29,3.8,Board meeting,
+167,280,2024-04-14,5.8,Committee work,
+168,280,2025-03-25,2.7,Board meeting,
+169,280,2025-05-23,3.2,Board meeting,
+170,280,2025-08-23,3.6,Board meeting,
+171,280,2025-10-12,3.6,Board meeting,
+172,280,2025-11-30,5.4,Committee work,
+173,326,2023-03-09,2.2,Board meeting,
+174,326,2023-04-17,2.6,Board meeting,
+175,326,2023-07-07,3.1,Board meeting,
+176,326,2023-11-13,2.2,Board meeting,
+177,326,2024-02-04,2,Board meeting,
+178,326,2024-04-09,3.3,Board meeting,
+179,326,2024-09-08,3.6,Board meeting,
+180,326,2024-12-12,2.5,Board meeting,
+181,326,2024-11-23,2,Committee work,
+182,326,2025-02-21,3.2,Board meeting,
+183,326,2025-05-17,3.3,Board meeting,
+184,326,2025-09-11,3,Board meeting,
+185,326,2025-10-30,2.3,Board meeting,
+186,326,2025-04-08,5.7,Committee work,
+187,329,2023-02-13,3.9,Board meeting,
+188,329,2023-06-12,3.1,Board meeting,
+189,329,2023-09-10,2.8,Board meeting,
+190,329,2023-12-21,2.1,Board meeting,
+191,329,2023-11-05,2.1,Committee work,
+192,329,2024-03-09,3.2,Board meeting,
+193,329,2024-05-12,2,Board meeting,
+194,329,2024-07-19,2.9,Board meeting,
+195,329,2024-11-03,2.7,Board meeting,
+196,329,2024-01-29,2.2,Committee work,
+197,329,2025-02-16,2.5,Board meeting,
+198,329,2025-04-24,3.8,Board meeting,
+199,329,2025-07-11,3.7,Board meeting,
+200,329,2025-12-10,3.6,Board meeting,
+201,329,2025-04-06,4.7,Committee work,
+202,330,2023-02-08,2.2,Board meeting,
+203,330,2023-06-26,2.1,Board meeting,
+204,330,2023-08-05,3.3,Board meeting,
+205,330,2023-12-08,2.7,Board meeting,
+206,330,2024-03-13,3.7,Board meeting,
+207,330,2024-06-14,2,Board meeting,
+208,330,2024-08-23,2.4,Board meeting,
+209,330,2024-10-09,2,Board meeting,
+210,330,2025-01-22,2.4,Board meeting,
+211,330,2025-06-16,2,Board meeting,
+212,330,2025-09-12,3.2,Board meeting,
+213,330,2025-12-16,3.6,Board meeting,
+214,330,2025-09-18,2.4,Committee work,
+215,334,2023-03-06,2.6,Board meeting,
+216,334,2023-06-05,2.5,Board meeting,
+217,334,2023-08-30,3.4,Board meeting,
+218,334,2023-10-23,2.8,Board meeting,
+219,334,2024-02-15,3.1,Board meeting,
+220,334,2024-05-22,2.1,Board meeting,
+221,334,2024-07-10,3,Board meeting,
+222,334,2024-10-07,3.9,Board meeting,
+223,334,2024-12-08,5.7,Committee work,
+224,334,2025-03-01,2.4,Board meeting,
+225,334,2025-06-27,4,Board meeting,
+226,334,2025-09-02,3.1,Board meeting,
+227,334,2025-12-10,2.9,Board meeting,
+228,334,2025-01-14,2.2,Committee work,
+229,350,2023-01-16,3.2,Board meeting,
+230,350,2023-04-24,3.8,Board meeting,
+231,350,2023-07-02,2.6,Board meeting,
+232,350,2023-12-16,3,Board meeting,
+233,350,2023-05-08,5.9,Committee work,
+234,350,2024-02-17,2.1,Board meeting,
+235,350,2024-04-13,3.2,Board meeting,
+236,350,2024-08-06,3.5,Board meeting,
+237,350,2024-10-21,4,Board meeting,
+238,350,2024-03-14,5.4,Committee work,
+239,350,2025-02-25,3.5,Board meeting,
+240,350,2025-05-19,2.3,Board meeting,
+241,350,2025-08-18,3.2,Board meeting,
+242,350,2025-11-22,2.2,Board meeting,
+243,350,2025-02-23,5.2,Committee work,
+244,398,2023-01-07,2.5,Board meeting,
+245,398,2023-05-13,2.4,Board meeting,
+246,398,2023-08-21,3.6,Board meeting,
+247,398,2023-10-22,2,Board meeting,
+248,398,2024-02-14,2.2,Board meeting,
+249,398,2024-06-03,3.8,Board meeting,
+250,398,2024-09-22,3.5,Board meeting,
+251,398,2024-10-30,3.8,Board meeting,
+252,398,2024-09-19,5,Committee work,
+253,398,2025-03-08,2.7,Board meeting,
+254,398,2025-06-23,3,Board meeting,
+255,398,2025-08-30,2.8,Board meeting,
+256,398,2025-12-13,2.6,Board meeting,
+257,420,2023-03-30,2.3,Board meeting,
+258,420,2023-06-16,2.2,Board meeting,
+259,420,2023-09-10,3.8,Board meeting,
+260,420,2023-10-22,2.6,Board meeting,
+261,420,2023-01-19,3.9,Committee work,
+262,420,2024-02-02,2.4,Board meeting,
+263,420,2024-05-25,3.9,Board meeting,
+264,420,2024-08-13,4,Board meeting,
+265,420,2024-12-06,3.1,Board meeting,
+266,420,2025-03-21,2.9,Board meeting,
+267,420,2025-05-25,2.4,Board meeting,
+268,420,2025-08-18,3.7,Board meeting,
+269,420,2025-11-16,2.5,Board meeting,
+270,452,2023-03-25,2.1,Board meeting,
+271,452,2023-05-05,3.4,Board meeting,
+272,452,2023-07-24,2.1,Board meeting,
+273,452,2023-11-04,3.1,Board meeting,
+274,452,2024-02-08,2,Board meeting,
+275,452,2024-05-27,3.5,Board meeting,
+276,452,2024-09-27,2.9,Board meeting,
+277,452,2024-12-12,3.9,Board meeting,
+278,452,2024-10-01,2,Committee work,
+279,452,2025-02-21,2.5,Board meeting,
+280,452,2025-04-22,2.7,Board meeting,
+281,452,2025-08-17,2.2,Board meeting,
+282,452,2025-10-29,2.7,Board meeting,
+283,452,2025-01-18,2.7,Committee work,
+284,453,2023-02-10,2.8,Board meeting,
+285,453,2023-06-19,3,Board meeting,
+286,453,2023-09-25,3.2,Board meeting,
+287,453,2023-10-13,3.3,Board meeting,
+288,453,2023-01-08,5.8,Committee work,
+289,453,2024-03-05,2.9,Board meeting,
+290,453,2024-04-01,2.8,Board meeting,
+291,453,2024-08-29,3.6,Board meeting,
+292,453,2024-10-11,3,Board meeting,
+293,453,2024-10-31,2.6,Committee work,
+294,453,2025-01-18,2.2,Board meeting,
+295,453,2025-05-29,3.4,Board meeting,
+296,453,2025-09-13,2.7,Board meeting,
+297,453,2025-10-20,3,Board meeting,
+298,453,2025-02-06,4.7,Committee work,
+299,188,2024-05-06,1.4,Teaching,
+300,188,2024-12-19,1.4,Board meeting,
+301,188,2024-01-06,4.6,Event setup,
+302,188,2025-02-13,5.6,Committee work,
+303,188,2025-05-12,3.5,Mentoring,
+304,188,2025-04-13,3.9,Event setup,22
+305,415,2023-11-18,4.6,Committee work,
+306,415,2023-04-24,3.3,Transportation,1
+307,415,2023-06-12,5.7,Committee work,
+308,196,2023-11-25,3.4,Transportation,4
+309,196,2023-12-14,5.6,Transportation,10
+310,196,2024-04-15,5.2,Transportation,12
+311,335,2023-11-12,5,Event setup,6
+312,335,2023-09-12,1.2,Transportation,3
+313,268,2023-10-07,2.3,Mentoring,
+314,268,2023-05-25,2.9,Committee work,
+315,298,2023-06-19,5.3,Event setup,
+316,298,2023-04-24,1.8,Transportation,1
+317,298,2023-11-12,3.1,Event setup,6
+318,298,2023-09-10,4.7,Board meeting,
+319,298,2025-12-20,2.1,Office admin,
+320,296,2023-12-14,2.2,Transportation,10
+321,296,2023-03-18,2.8,Event setup,7
+322,296,2023-11-12,5.3,Transportation,6
+323,296,2023-11-25,5.3,Transportation,4
+324,296,2025-11-07,4.4,Transportation,25
+325,296,2025-01-07,3.4,Office admin,
+326,7,2023-09-17,4.9,Office admin,
+327,182,2023-06-22,2.9,Event setup,11
+328,182,2025-07-11,5.9,Office admin,
+329,182,2025-05-19,3.1,Event setup,
+330,68,2023-10-17,3.3,Event setup,5
+331,49,2025-08-19,5.1,Mentoring,
+332,49,2025-02-12,4.9,Teaching,
+333,49,2025-10-18,3.3,Data entry,
+334,49,2025-12-16,4.4,Event setup,27
+335,130,2023-02-19,1.1,Transportation,8
+336,130,2023-10-27,2.5,Committee work,
+337,130,2023-09-01,3.4,Transportation,
+338,130,2023-12-21,1.6,Fundraising calls,
+339,130,2024-02-18,4.6,Transportation,
+340,130,2024-10-06,5.4,Committee work,
+341,354,2023-12-14,3.8,Transportation,10
+342,354,2023-07-21,5.3,Mentoring,
+343,354,2024-07-19,2.2,Transportation,13
+344,354,2025-06-22,3.1,Event setup,23
+345,419,2024-09-25,4.7,Transportation,14
+346,419,2024-12-14,1.3,Transportation,21
+347,419,2024-12-14,2.8,Transportation,21
+348,419,2024-10-07,4.8,Transportation,15
+349,419,2025-12-19,1.2,Mentoring,
+350,419,2025-12-16,5.8,Transportation,27
+351,419,2025-10-28,5.7,Transportation,
+352,419,2025-03-05,3.5,Fundraising calls,
+353,365,2025-04-11,5.9,Transportation,
+354,365,2025-09-22,6,Transportation,24
+355,1,2023-09-15,5.7,Data entry,
+356,1,2023-07-16,4.2,Event setup,
+357,1,2023-10-07,3.2,Teaching,
+358,1,2025-04-13,4.9,Transportation,22
+359,1,2025-10-08,5.6,Transportation,26
+360,77,2023-09-12,5.6,Transportation,3
+361,77,2024-09-29,1.3,Teaching,
+362,77,2024-07-25,1,Office admin,
+363,77,2024-09-14,4.5,Transportation,
+364,77,2024-04-15,3.2,Event setup,12
+365,77,2025-04-13,3,Event setup,22
+366,492,2024-10-12,5.3,Event setup,16
+367,492,2024-04-22,1,Office admin,
+368,471,2023-09-24,3.3,Teaching,
+369,471,2023-04-09,1.7,Fundraising calls,
+370,447,2023-04-24,1.4,Event setup,1
+371,447,2023-10-17,2.2,Event setup,5
+372,447,2023-04-24,2,Event setup,1
+373,447,2025-06-22,1.9,Event setup,23
+374,447,2025-10-08,2.2,Transportation,26
+375,447,2025-09-09,5.1,Office admin,
+376,185,2023-09-01,2.6,Board meeting,
+377,180,2023-05-12,3,Board meeting,
+378,180,2023-03-02,2.4,Data entry,
+379,180,2024-10-07,3,Event setup,
+380,180,2024-10-12,5.7,Transportation,16
+381,180,2025-06-22,2.7,Transportation,23
+382,180,2025-09-05,2.9,Teaching,
+383,180,2025-02-24,3.1,Event setup,29
+384,433,2024-02-20,5.2,Transportation,20
+385,433,2024-03-25,5.6,Office admin,
+386,433,2024-03-07,2.8,Transportation,18
+387,422,2024-05-20,5.2,Office admin,
+388,422,2024-10-12,5.7,Event setup,16
+389,422,2024-02-12,4.9,Event setup,19
+390,422,2025-10-08,2.5,Event setup,26
+391,190,2025-11-07,3.2,Transportation,25
+392,190,2025-09-24,2.1,Event setup,
+393,190,2025-12-16,4.6,Transportation,27
+394,401,2023-12-14,4.3,Event setup,10
+395,401,2023-07-06,2.8,Office admin,
+396,401,2023-09-12,1.4,Transportation,3
+397,401,2023-05-13,3.2,Committee work,
+398,283,2023-06-08,3.5,Board meeting,
+399,283,2024-09-25,3,Transportation,14
+400,283,2024-11-25,1.2,Office admin,
+401,283,2024-02-12,3.3,Event setup,19
+402,283,2024-05-12,2.3,Mentoring,
+403,283,2025-09-22,4.2,Transportation,24
+404,283,2025-03-12,4.5,Transportation,28
+405,283,2025-02-10,4.6,Event setup,
+406,283,2025-07-11,4.9,Event setup,
+407,39,2023-07-25,1.2,Transportation,2
+408,39,2023-04-24,1.7,Transportation,1
+409,39,2023-09-12,5.8,Transportation,3
+410,320,2023-03-18,3.1,Transportation,7
+411,320,2023-10-29,1.2,Community outreach,
+412,320,2023-10-25,1.7,Office admin,
+413,320,2023-12-12,2.1,Data entry,
+414,126,2025-07-07,2.8,Community outreach,
+415,439,2023-10-17,4.9,Transportation,5
+416,21,2023-12-14,4.4,Event setup,10
+417,21,2023-03-19,3.7,Board meeting,
+418,21,2024-02-12,4.8,Transportation,19
+419,21,2024-03-07,4.9,Transportation,18
+420,21,2025-11-07,4,Event setup,25
+421,21,2025-03-12,2.8,Community outreach,
+422,21,2025-10-08,2.6,Transportation,26
+423,21,2025-06-22,5.7,Event setup,23
+424,432,2023-02-10,1.2,Event setup,9
+425,432,2023-07-06,4.5,Event setup,
+426,432,2024-07-24,4.7,Office admin,
+427,215,2023-02-10,1.5,Event setup,9
+428,215,2023-12-11,2.5,Mentoring,
+429,215,2023-11-12,1.4,Event setup,6
+430,215,2023-09-12,5.5,Event setup,3
+431,215,2025-03-12,5.6,Event setup,28
+432,215,2025-06-10,5.9,Teaching,
+433,215,2025-07-04,4.4,Fundraising calls,
+434,215,2025-08-24,1.1,Event setup,
+435,336,2023-04-28,3.7,Mentoring,
+436,63,2023-09-12,5.3,Transportation,3
+437,63,2025-08-06,1.7,Transportation,
+438,63,2025-11-07,3.5,Event setup,25
+439,63,2025-11-07,5.2,Event setup,25
+440,403,2024-05-18,5,Office admin,
+441,403,2024-02-20,5.7,Transportation,20
+442,403,2025-06-21,3.3,Teaching,
+443,421,2024-02-19,4.4,Mentoring,
+444,421,2024-04-15,1.6,Event setup,12
+445,41,2025-07-14,3.8,Mentoring,
+446,243,2024-11-09,3.2,Transportation,17
+447,243,2024-04-25,5.1,Teaching,
+448,243,2025-01-08,4.2,Event setup,30
+449,243,2025-02-08,3.9,Event setup,
+450,243,2025-03-12,2.5,Event setup,28
+451,243,2025-05-14,3.8,Teaching,
+452,113,2024-04-15,2.4,Transportation,12
+453,113,2024-09-25,2,Transportation,14
+454,113,2024-11-17,5.6,Community outreach,
+455,13,2024-10-07,4.6,Event setup,15
+456,13,2024-10-24,1.5,Event setup,
+457,144,2024-02-21,4.5,Teaching,
+458,144,2024-05-04,3.4,Event setup,
+459,71,2023-01-20,4.7,Office admin,
+460,71,2023-06-08,1.2,Office admin,
+461,71,2023-02-10,1.6,Event setup,9
+462,71,2023-03-18,3.4,Transportation,7
+463,71,2024-09-25,3.6,Event setup,14
+464,71,2024-10-10,1.2,Committee work,
+465,71,2024-07-19,1.2,Event setup,13
+466,71,2024-03-06,4.9,Mentoring,
+467,71,2025-08-04,2.2,Mentoring,
+468,71,2025-10-08,4.4,Event setup,26
+469,71,2025-09-10,2.5,Board meeting,
+470,71,2025-06-22,1.9,Event setup,23
+471,457,2024-04-28,5.4,Community outreach,
+472,457,2024-12-14,6,Transportation,21
+473,457,2024-03-07,2.8,Transportation,18
+474,457,2024-02-20,1.3,Event setup,20
+475,457,2025-05-21,5.3,Transportation,32
+476,457,2025-12-15,5.1,Community outreach,
+477,457,2025-12-16,5.4,Transportation,27
+478,457,2025-12-21,5.1,Fundraising calls,
+479,25,2025-11-07,5.4,Event setup,25
+480,26,2024-07-19,3.9,Event setup,13
+481,26,2025-10-11,5.2,Mentoring,
+482,104,2023-07-20,1.8,Data entry,
+483,104,2023-06-22,4.4,Event setup,11
+484,104,2023-02-19,1.4,Transportation,8
+485,104,2023-10-17,4.1,Event setup,5
+486,104,2025-11-06,1.7,Event setup,
+487,104,2025-07-20,5.2,Office admin,
+488,394,2023-10-27,3.8,Transportation,
+489,250,2024-06-07,4.7,Mentoring,
+490,250,2024-10-12,6,Event setup,16
+491,250,2024-04-15,4.5,Event setup,12
+492,250,2024-06-25,2.6,Board meeting,
+493,426,2023-11-08,5.3,Transportation,
+494,426,2023-01-08,5.7,Mentoring,
+495,426,2023-02-10,3,Event setup,9
+496,233,2025-05-15,5.7,Fundraising calls,
+497,233,2025-05-21,3.7,Transportation,32
+498,233,2025-01-08,1.5,Transportation,30
+499,434,2023-11-07,5,Committee work,
+500,434,2023-11-11,5.7,Community outreach,
+501,383,2023-02-10,4.3,Transportation,9
+502,383,2024-09-25,2.7,Event setup,14
+503,383,2024-09-25,5.2,Transportation,14
+504,383,2024-11-25,2.3,Teaching,
+505,98,2023-09-12,5.3,Event setup,3
+506,98,2023-05-16,2.2,Fundraising calls,
+507,98,2025-10-08,2.4,Event setup,26
+508,98,2025-03-12,1.6,Transportation,28
+509,98,2025-04-19,3.3,Community outreach,
+510,373,2024-09-06,3.3,Mentoring,
+511,373,2024-09-27,3.8,Data entry,
+512,373,2024-02-20,1,Transportation,20
+513,42,2023-05-02,6.1,Community outreach,
+514,42,2023-11-08,5,Community outreach,7
+515,42,2023-01-26,2.4,Teaching,3
+516,42,2023-06-25,3.7,Community outreach,
+517,42,2024-01-30,6.1,Mentoring,17
+518,42,2024-12-14,7.8,Mentoring,16
+519,42,2024-01-10,4.5,Event setup,
+520,42,2025-02-27,2,Event setup,
+521,42,2025-04-12,5.4,Mentoring,27
+522,42,2025-05-02,4.9,Community outreach,
+523,42,2025-01-18,7.1,Mentoring,
+524,92,2023-03-08,4.9,Mentoring,
+525,92,2023-07-21,2.9,Event setup,
+526,92,2023-04-25,6.8,Community outreach,6
+527,92,2023-05-21,5.7,Mentoring,2
+528,92,2024-12-13,5.9,Event setup,
+529,92,2024-03-11,5.8,Mentoring,
+530,92,2025-08-25,5.7,Community outreach,
+531,92,2025-08-20,5.2,Mentoring,32
+532,92,2025-04-09,3.6,Event setup,
+533,117,2023-04-30,5.3,Community outreach,
+534,117,2023-03-02,7.4,Teaching,
+535,117,2023-01-09,7.9,Event setup,
+536,117,2023-12-01,7.6,Mentoring,6
+537,117,2023-04-29,4.7,Event setup,10
+538,117,2024-10-20,5.2,Mentoring,
+539,117,2024-01-17,6.4,Mentoring,
+540,117,2024-10-06,3.6,Event setup,
+541,117,2024-08-10,5.1,Community outreach,
+542,117,2024-09-21,2,Teaching,
+543,117,2025-08-12,3.3,Mentoring,
+544,117,2025-05-27,3.1,Community outreach,
+545,117,2025-09-06,2.9,Teaching,
+546,117,2025-02-26,3.6,Mentoring,
+547,136,2023-09-17,5.5,Event setup,
+548,136,2023-10-17,5.5,Event setup,3
+549,136,2023-10-22,7,Event setup,
+550,136,2023-06-03,7.6,Community outreach,
+551,136,2024-02-29,6.4,Teaching,13
+552,136,2024-01-11,6.6,Teaching,
+553,136,2024-06-09,7.1,Event setup,13
+554,136,2024-05-06,7.3,Event setup,
+555,136,2025-10-20,5.6,Community outreach,
+556,136,2025-12-15,2.2,Teaching,
+557,166,2023-12-27,7.5,Community outreach,
+558,166,2023-08-26,2.6,Community outreach,
+559,166,2023-05-27,5.3,Community outreach,
+560,166,2023-05-20,7.4,Teaching,
+561,166,2024-07-30,3.7,Event setup,
+562,166,2024-10-22,5.9,Teaching,
+563,166,2024-12-16,5.9,Event setup,
+564,166,2025-09-19,6.9,Mentoring,
+565,166,2025-09-07,7.6,Teaching,
+566,166,2025-01-18,2,Teaching,
+567,166,2025-04-01,6.2,Mentoring,25
+568,166,2025-01-27,5.2,Teaching,32
+569,217,2023-07-11,5.1,Community outreach,
+570,217,2023-12-14,7.4,Community outreach,11
+571,217,2023-03-14,5.3,Community outreach,
+572,217,2023-02-12,5.9,Community outreach,6
+573,217,2023-01-17,3.1,Community outreach,11
+574,217,2024-11-09,4.1,Community outreach,
+575,217,2024-01-15,5.3,Community outreach,
+576,217,2024-11-21,7.8,Mentoring,
+577,217,2025-10-08,7.8,Teaching,
+578,217,2025-10-18,6.7,Event setup,30
+579,245,2023-09-17,2,Event setup,
+580,245,2023-09-06,2.5,Event setup,
+581,245,2024-12-22,2.5,Mentoring,
+582,245,2024-02-23,6,Event setup,19
+583,245,2024-02-03,5.6,Event setup,17
+584,245,2024-06-04,5.7,Teaching,14
+585,245,2025-02-26,2.7,Community outreach,22
+586,245,2025-02-28,3.1,Teaching,23
+587,245,2025-07-17,6.3,Mentoring,
+588,245,2025-06-10,5.8,Event setup,
+589,245,2025-01-23,5.4,Mentoring,
+590,273,2023-09-02,2.2,Teaching,
+591,273,2023-07-13,2.4,Event setup,
+592,273,2023-11-07,4.2,Mentoring,
+593,273,2023-09-18,6,Community outreach,
+594,273,2024-05-27,2.7,Mentoring,
+595,273,2024-09-27,3.9,Teaching,
+596,273,2024-08-12,2.5,Mentoring,
+597,273,2024-03-26,7.9,Teaching,
+598,273,2024-04-17,5.7,Mentoring,
+599,273,2025-03-07,7,Community outreach,
+600,273,2025-02-10,5.4,Mentoring,
+601,273,2025-11-04,5.6,Teaching,
+602,278,2023-08-22,4.2,Teaching,
+603,278,2023-04-10,7.3,Event setup,
+604,278,2024-11-13,3.3,Teaching,
+605,278,2024-05-27,5.9,Teaching,
+606,278,2025-12-12,3.7,Community outreach,24
+607,278,2025-04-06,2.3,Mentoring,27
+608,278,2025-03-10,7.7,Teaching,31
+609,278,2025-05-27,7,Teaching,
+610,324,2023-07-23,4.4,Teaching,
+611,324,2023-05-31,6.1,Mentoring,
+612,324,2023-06-21,2,Event setup,
+613,324,2024-07-10,5.4,Mentoring,
+614,324,2024-01-23,2.1,Event setup,
+615,324,2024-08-11,6.5,Mentoring,
+616,324,2024-06-21,5.5,Mentoring,
+617,324,2025-04-12,4.4,Mentoring,
+618,324,2025-03-28,2.2,Event setup,
+619,345,2023-07-13,2.7,Teaching,
+620,345,2023-09-25,6.7,Teaching,
+621,345,2023-10-30,3,Mentoring,
+622,345,2024-03-13,5.1,Community outreach,
+623,345,2024-03-30,3.9,Event setup,20
+624,345,2024-03-17,7.5,Teaching,16
+625,345,2025-03-15,4,Mentoring,
+626,345,2025-10-26,6.6,Community outreach,
+627,345,2025-03-03,2.4,Mentoring,
+628,400,2023-11-21,5.5,Event setup,
+629,400,2023-11-18,2.6,Community outreach,
+630,400,2023-02-15,2.4,Community outreach,
+631,400,2023-12-04,4,Event setup,
+632,400,2023-03-24,5.5,Event setup,
+633,400,2024-04-21,6.9,Mentoring,15
+634,400,2024-08-29,2.9,Mentoring,
+635,400,2024-04-08,4.4,Event setup,
+636,400,2025-07-07,3.3,Mentoring,
+637,400,2025-01-02,2.6,Teaching,
+638,400,2025-12-24,2.5,Teaching,
+639,400,2025-08-11,5.4,Mentoring,32
+640,400,2025-03-11,2.4,Teaching,
+641,404,2023-01-19,2.3,Teaching,5
+642,404,2023-03-04,4.1,Teaching,
+643,404,2024-06-22,6.9,Event setup,
+644,404,2024-06-06,5.8,Teaching,16
+645,404,2025-08-22,3.7,Event setup,
+646,404,2025-05-23,5.7,Mentoring,27
+647,404,2025-05-02,6.5,Community outreach,
+648,404,2025-02-28,3.8,Teaching,
+649,404,2025-08-03,6.7,Mentoring,
+650,448,2023-08-09,6.8,Mentoring,
+651,448,2023-08-07,7,Community outreach,5
+652,448,2024-06-04,5.8,Teaching,
+653,448,2024-03-14,5.6,Mentoring,
+654,448,2024-09-14,2.1,Event setup,
+655,448,2024-10-16,3.8,Community outreach,
+656,448,2024-10-18,6.2,Teaching,
+657,448,2025-05-08,2.8,Community outreach,
+658,448,2025-02-03,4.8,Event setup,
+659,448,2025-06-24,3.5,Community outreach,28
