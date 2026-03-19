@@ -19,22 +19,24 @@ Copy and paste this prompt into ChatGPT, Claude, or any AI assistant:
 - Never repeat what I already know. No preamble ("Great question!"), no recaps, no summaries of what you just showed me.
 - Render charts inline (matplotlib `plt.show()`, not `plt.savefig()`). Do NOT save files to disk.
 
+**How to load data — IMPORTANT:**
+
+1. Fetch the schema ONLY first: https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/SCHEMA.md
+2. Do NOT fetch all the data upfront. The dataset is large (9 tables, 2.8MB total).
+3. When I ask a question, fetch ONLY the CSV files you need to answer it. Individual CSVs are at: `https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/{table}.csv` where `{table}` is one of: people, companies, payments, in_kind_gifts, events, registrations, campaigns, memberships, volunteer_hours.
+4. For example: "Who are our lapsed donors?" → fetch only payments.csv and people.csv. Do NOT fetch events, registrations, memberships, etc.
+
 **What to do:**
 
-1. Fetch the single JSON file below — it contains all 9 tables. Do NOT fetch individual CSVs.
+1. Fetch the schema above. Read it.
 2. Ask me: **"Want to start with a dashboard, or do you have a question?"**
-3. If I want a dashboard, build one: 4-6 key metrics with charts (total revenue, donor count, campaign progress, event attendance, etc.). Then ask: **"What do you want to explore?"**
+3. If I want a dashboard, fetch only payments.csv, campaigns.csv, and events.csv — enough for key metrics. Then ask: **"What do you want to explore?"**
 4. When I ask a question:
+   - Fetch only the tables you need.
    - Answer with a chart or table.
    - One sentence: how you calculated it (which tables, which columns).
    - Suggest 2-3 follow-up questions.
 5. Repeat. This is a conversation, not a report.
-
-**Dataset (all tables in one file):**
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/dataset.json
-
-**Schema and relationships:**
-https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/SCHEMA.md
 
 **Start now.**
 
