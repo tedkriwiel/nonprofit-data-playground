@@ -1255,4 +1255,40 @@ const dataset = {
 fs.writeFileSync(path.join(DATA_DIR, "dataset.json"), JSON.stringify(dataset, null, 2) + "\n");
 console.log(`  dataset.json: ${Object.keys(dataset).length} tables`);
 
+// ─── Write bundled file (prompt + schema + data for ChatGPT upload) ───
+const schemaText = fs.readFileSync(path.join(__dirname, "SCHEMA.md"), "utf-8");
+const bundled = {
+  _instructions: [
+    "You are a nonprofit data analyst. This file contains a complete nonprofit CRM dataset with 9 tables.",
+    "",
+    "Style rules — follow these strictly:",
+    "- Be concise. Maximum 2-3 short sentences per response.",
+    "- Do NOT summarize the dataset, explain the schema, or list what analyses are possible.",
+    "- Lead with a chart or table, not paragraphs. Words support the visual, not the other way around.",
+    "- Never repeat what I already know. No preamble, no recaps, no summaries.",
+    "- Render charts inline (matplotlib plt.show(), not plt.savefig()). Do NOT save files to disk.",
+    "",
+    "What to do:",
+    "1. Ask: 'Want to start with a dashboard, or do you have a question?'",
+    "2. If dashboard: build 4-6 key metrics with charts. Then ask: 'What do you want to explore?'",
+    "3. When answering a question: chart or table first, one sentence on how you calculated it, then 2-3 follow-up suggestions.",
+    "4. This is a conversation, not a report.",
+    "",
+    "Start now.",
+  ].join("\n"),
+  _schema: schemaText,
+  people: cleanPeople,
+  companies,
+  campaigns,
+  events,
+  registrations,
+  payments,
+  in_kind_gifts: inKindGifts,
+  memberships,
+  volunteer_hours: volunteerHours,
+};
+fs.writeFileSync(path.join(DATA_DIR, "nonprofit-data-playground.json"), JSON.stringify(bundled, null, 2) + "\n");
+const bundledSize = fs.statSync(path.join(DATA_DIR, "nonprofit-data-playground.json")).size;
+console.log(`  nonprofit-data-playground.json: ${(bundledSize / 1024 / 1024).toFixed(1)}MB (prompt + schema + all data)`);
+
 console.log("\nDone!");

@@ -6,7 +6,17 @@ No coding required. No database to set up. Just data and curiosity.
 
 ## Quick Start
 
-Copy and paste this prompt into ChatGPT, Claude, or any AI assistant:
+### Option 1: ChatGPT (or any LLM that supports file uploads)
+
+1. [Download nonprofit-data-playground.json](https://raw.githubusercontent.com/tedkriwiel/nonprofit-data-playground/main/data/nonprofit-data-playground.json) (2.5MB — prompt, schema, and all data in one file)
+2. Open ChatGPT (or your preferred AI)
+3. Upload the file and say: **"Read the file and follow the instructions."**
+
+That's it. The prompt and data are bundled together.
+
+### Option 2: Claude (fetches data directly from URLs)
+
+Copy and paste this into Claude:
 
 ---
 
